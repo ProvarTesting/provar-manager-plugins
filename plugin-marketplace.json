@@ -1,7 +1,7 @@
 {
     "packageName": "Provar Manager",
     "packageId": "0Ho4L000000XZXaSAO",
-    "packageIconUrl": "https://drive.google.com/file/d/1qDNYy8M13oQMWhsNnqME7tBDl3FTkqNE/preview",
+    "packageIconUrl": "https://drive.google.com/uc?export=view&id=1qDNYy8M13oQMWhsNnqME7tBDl3FTkqNE",
     "description": "",
     "versionNumber": "2.13.1",
     "versionId" : "04t4L00000014vVQAQ",
@@ -23,7 +23,7 @@
         {
             "packageName": "Jira Plugin",
             "packageId": "0Ho4L0000004CJESA2",
-            "packageIconUrl": "https://drive.google.com/file/d/1nxpKz9DOr7FVtJNiP1Vf-r7IRcQFSMux/preview",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=1nxpKz9DOr7FVtJNiP1Vf-r7IRcQFSMux",
             "description": "This plugin let's you connect to your Jira Cloud org, import projects and issues into Provar Manager, relate test cases to issues, and export defects as bugs back into Jira.",
             "status": "Released",
             "versionNumber": "0.3.0",
@@ -42,7 +42,7 @@
         {
             "packageName": "Salesforce DevOps Center Plugin",
             "packageId": "0Ho4L000000fxhESAQ",
-            "packageIconUrl": "https://drive.google.com/file/d/1sV3TJuY78SmDIyIQO7P7v2oL4W_XRj2e/preview",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=1sV3TJuY78SmDIyIQO7P7v2oL4W_XRj2e",
             "description": "This plugin let's you relate test cases to work items and see their execution status per environment from within the work item itself.",
             "status": "Beta",
             "versionNumber": "0.1.0",
@@ -67,7 +67,7 @@
         {
             "packageName": "Flosum Plugin",
             "packageId": "0Ho4L0000004CIuSAM",
-            "packageIconUrl": "https://drive.google.com/file/d/1SdCBGBmD-ew1AveejOxr6s6cfdynpevy/preview",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=1SdCBGBmD-ew1AveejOxr6s6cfdynpevy",
             "description": "This plugin let's you relate test cases to branches and see their execution status per environment from within the branch itself.",
             "status": "Beta",
             "versionNumber": "0.1.0",
@@ -92,7 +92,7 @@
         {
             "packageName": "Copado Plugin",
             "packageId": "0Ho4L0000004CJJSA2",
-            "packageIconUrl": "https://drive.google.com/file/d/1-UVt_zf8-YXNnx6Yqf9PFiGz09JrieaC/preview",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=1-UVt_zf8-YXNnx6Yqf9PFiGz09JrieaC",
             "description": "This plugin let's you relate test cases to user stories and see their execution status per environment from within the user story itself.",
             "status": "Beta",
             "versionNumber": "0.1.0",
@@ -117,7 +117,7 @@
         {
             "packageName": "QualityClouds Plugin",
             "packageId": "0Ho4L000000CaeNSAS",
-            "packageIconUrl": "https://drive.google.com/file/d/1GL41dBJwXREMxHRqkt9w6VduH5_5NGQu/preview",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=1GL41dBJwXREMxHRqkt9w6VduH5_5NGQu",
             "description": "This plugin let's you connect your systems to QualityClouds and retrieve code scans so they can be analysed in Provar Manager.",
             "status": "Beta",
             "versionNumber": "0.1.0",
