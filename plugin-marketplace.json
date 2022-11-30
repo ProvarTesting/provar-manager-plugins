@@ -1,0 +1,137 @@
+{
+    "packageName": "Provar Manager",
+    "packageId": "0Ho4L000000XZXaSAO",
+    "packageIconUrl": "https://drive.google.com/file/d/1qDNYy8M13oQMWhsNnqME7tBDl3FTkqNE/preview",
+    "description": "",
+    "versionNumber": "2.13.1",
+    "versionId" : "04t4L00000014vVQAQ",
+    "releaseDate": "2022-11-17",
+    "releaseNotes": [
+        "New assistant to configure Test Plan Schedule records.",
+        "Defects can easily be raised from Test Execution and Test Step Execution records.",
+        "Added support for weekly and on-demand Coverage Reporting Schedule executions.",
+        "Added support for one-off Test Plan Schedule executions.",
+        "Added support to schedule Code Scans using 3rd-party plugins.",
+        "Upgraded pages to use dynamic forms and dynamic related lists.",
+        "Increased timeout limit for Salesforce and Generic API callouts to 120 seconds."
+    ],
+    "releaseNotesUrl": "",
+    "usageGuideUrl": "https://drive.google.com/file/d/1_fQ5zkvoEyJJHkDZjqiI65syoTqi_iPu/view?usp=share_link",
+    "securityReviewPassed": true,
+    "categories": ["Release Management", "DevOps", "Code Quality"],
+    "plugins": [
+        {
+            "packageName": "Jira Plugin",
+            "packageId": "0Ho4L0000004CJESA2",
+            "packageIconUrl": "https://drive.google.com/file/d/1nxpKz9DOr7FVtJNiP1Vf-r7IRcQFSMux/preview",
+            "description": "This plugin let's you connect to your Jira Cloud org, import projects and issues into Provar Manager, relate test cases to issues, and export defects as bugs back into Jira.",
+            "status": "Released",
+            "versionNumber": "0.3.0",
+            "versionId": "04t4L00000014umQAA",
+            "category": "Release Management",
+            "releaseDate": "2022-11-10",
+            "releaseNotes": [
+                "Updated old icons to new Provar Manager icons. ",
+                "Added usage analytics."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "https://drive.google.com/file/d/11lL9Zd7cWnziQ1FzQ8HhTen-AubRLGrb/view?usp=share_link",
+            "securityReviewPassed": true,
+            "dependencies": []
+        },
+        {
+            "packageName": "Salesforce DevOps Center Plugin",
+            "packageId": "0Ho4L000000fxhESAQ",
+            "packageIconUrl": "https://drive.google.com/file/d/1sV3TJuY78SmDIyIQO7P7v2oL4W_XRj2e/preview",
+            "description": "This plugin let's you relate test cases to work items and see their execution status per environment from within the work item itself.",
+            "status": "Beta",
+            "versionNumber": "0.1.0",
+            "versionId": "04t4L000000Da4bQAC",
+            "category": "DevOps",
+            "releaseDate": "2022-10-05",
+            "releaseNotes": [
+                "Relate test cases to work items using Work Item Test Case records.",
+                "Map PM system records to DOC environment records to show test executions on work item records."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "",
+            "securityReviewPassed": false,
+            "dependencies": [
+                {
+                    "packageName": "DevOps Center - Beta",
+                    "versionNumber": "4.3.0",
+                    "versionId" : "04t6g000008fi8bAAA"
+                }
+            ]
+        },
+        {
+            "packageName": "Flosum Plugin",
+            "packageId": "0Ho4L0000004CIuSAM",
+            "packageIconUrl": "https://drive.google.com/file/d/1SdCBGBmD-ew1AveejOxr6s6cfdynpevy/preview",
+            "description": "This plugin let's you relate test cases to branches and see their execution status per environment from within the branch itself.",
+            "status": "Beta",
+            "versionNumber": "0.1.0",
+            "versionId": "04t4L000000DZsGQAW",
+            "category": "DevOps",
+            "releaseDate": "2022-06-27",
+            "releaseNotes": [
+                "Relate test cases to branches using Branch Test Case records.",
+                "Map PM system records to Flosum org records to show test executions on branch records."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "",
+            "securityReviewPassed": false,
+            "dependencies": [
+                {
+                    "packageName": "Flosum",
+                    "versionNumber": "2.953.0",
+                    "versionId" : "04t3m000002NPlMAAW"
+                }
+            ]
+        },
+        {
+            "packageName": "Copado Plugin",
+            "packageId": "0Ho4L0000004CJJSA2",
+            "packageIconUrl": "https://drive.google.com/file/d/1-UVt_zf8-YXNnx6Yqf9PFiGz09JrieaC/preview",
+            "description": "This plugin let's you relate test cases to user stories and see their execution status per environment from within the user story itself.",
+            "status": "Beta",
+            "versionNumber": "0.1.0",
+            "versionId": "04t4L00000014p7QAA",
+            "category": "DevOps",
+            "releaseDate": "2022-10-25",
+            "releaseNotes": [
+                "Relate test cases to user stories using User Story Test Case records.",
+                "Map PM system records to Copado environment records to show test executions on user story records."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "",
+            "securityReviewPassed": false,
+            "dependencies": [
+                {
+                    "packageName": "Copado Deployer",
+                    "versionNumber": "20.0.0",
+                    "versionId" : "04t5p000000Xdf2AAC"
+                }
+            ]
+        },
+        {
+            "packageName": "QualityClouds Plugin",
+            "packageId": "0Ho4L000000CaeNSAS",
+            "packageIconUrl": "https://drive.google.com/file/d/1GL41dBJwXREMxHRqkt9w6VduH5_5NGQu/preview",
+            "description": "This plugin let's you connect your systems to QualityClouds and retrieve code scans so they can be analysed in Provar Manager.",
+            "status": "Beta",
+            "versionNumber": "0.1.0",
+            "versionId": "04t4L00000014vkQAA",
+            "category": "Code Quality",
+            "releaseDate": "2022-11-21",
+            "releaseNotes": [
+                "Store QualityClouds API Token for each System record.",
+                "Get Code Scans on schedule or on-demand from the System record."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "",
+            "securityReviewPassed": false,
+            "dependencies": []
+        }
+    ]
+}
