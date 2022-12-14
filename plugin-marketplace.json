@@ -135,7 +135,7 @@
         },
         {
             "packageName": "Clayton Plugin",
-            "packageId": "0Ho4L000000CaeNSAS",
+            "packageId": "0Ho4L000000CaeSSAS",
             "packageIconUrl": "https://drive.google.com/uc?export=view&id=1096wNmuYzHQ_76sDqXwTYgaumcl8ihtI",
             "description": "Connect to Clayton and retrieve code scans so they can be analysed in Provar Manager.",
             "status": "Beta",
