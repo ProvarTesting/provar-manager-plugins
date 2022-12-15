@@ -151,6 +151,27 @@
             "usageGuideUrl": "",
             "securityReviewPassed": false,
             "dependencies": []
+        },
+        {
+            "packageName": "Azure DevOps Plugin",
+            "packageId": "0Ho4L000000CaeXSAS",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=1nxpKz9DOr7FVtJNiP1Vf-r7IRcQFSMux",
+            "description": "Connect to your Azure DevOps org, import projects and work items into Provar Manager, relate test cases to work items, and export defects as bugs back into Azure DevOps.",
+            "status": "Released",
+            "versionNumber": "0.1.0",
+            "versionId": "04t4L0000001523QAA",
+            "category": "Release Management",
+            "releaseDate": "2022-12-15",
+            "releaseNotes": [
+                "Connect Provar Manager to Azure DevOps.",
+                "Import projects with their work item types and work item relation types.",
+                "Import work items of any type.",
+                "Send bugs to Azure DevOps from the defect record and have it automatically linked to the related work item."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "",
+            "securityReviewPassed": false,
+            "dependencies": []
         }
     ]
 }
