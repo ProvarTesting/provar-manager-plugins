@@ -35,7 +35,7 @@
                 "Added usage analytics."
             ],
             "releaseNotesUrl": "",
-            "usageGuideUrl": "https://drive.google.com/file/d/11lL9Zd7cWnziQ1FzQ8HhTen-AubRLGrb/view?usp=share_link",
+            "usageGuideUrl": "https://drive.google.com/file/d/11lL9Zd7cWnziQ1FzQ8HhTen-AubRLGrb/view",
             "securityReviewPassed": true,
             "dependencies": []
         },
@@ -54,7 +54,7 @@
                 "Map PM system records to DOC environment records to show test executions on work item records."
             ],
             "releaseNotesUrl": "",
-            "usageGuideUrl": "",
+            "usageGuideUrl": "https://drive.google.com/file/d/15ttbVofteYTbn4J-Xig6qrRFLsrbOtnU/view",
             "securityReviewPassed": false,
             "dependencies": [
                 {
@@ -79,7 +79,7 @@
                 "Map PM system records to Flosum org records to show test executions on branch records."
             ],
             "releaseNotesUrl": "",
-            "usageGuideUrl": "",
+            "usageGuideUrl": "https://drive.google.com/file/d/1tS-3UP7v2K1jmbwVFsPKVIhCQ4uX3aN6/view",
             "securityReviewPassed": false,
             "dependencies": [
                 {
@@ -104,7 +104,7 @@
                 "Map PM system records to Copado environment records to show test executions on user story records."
             ],
             "releaseNotesUrl": "",
-            "usageGuideUrl": "",
+            "usageGuideUrl": "https://drive.google.com/file/d/1T3ppoJbSJ4A2yUnj-A4vRxVr9OVBP1Kr/view",
             "securityReviewPassed": false,
             "dependencies": [
                 {
