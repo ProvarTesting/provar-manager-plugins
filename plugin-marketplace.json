@@ -159,8 +159,8 @@
             "packageIconUrl": "https://drive.google.com/uc?export=view&id=1EooYNQKPiEbO7IXQ6CUZK77NXa0aZM-k",
             "description": "Connect to your Azure DevOps org, import projects and work items into Provar Manager, relate test cases to work items, and export defects as bugs back into Azure DevOps.",
             "status": "Beta",
-            "versionNumber": "0.1.0",
-            "versionId": "04t4L0000001523QAA",
+            "versionNumber": "0.2.0",
+            "versionId": "04t4L000000152NQAQ",
             "category": "Release Management",
             "releaseDate": "2022-12-15",
             "releaseNotes": [
