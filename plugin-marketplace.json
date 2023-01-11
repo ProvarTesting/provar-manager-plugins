@@ -170,7 +170,7 @@
                 "Send bugs to Azure DevOps from the defect record and have it automatically linked to the related work item."
             ],
             "releaseNotesUrl": "",
-            "usageGuideUrl": "",
+            "usageGuideUrl": "https://drive.google.com/file/d/1yarqZK4f9AnmIwspvFx9XY2VvAB6Adgb/view",
             "securityReviewPassed": false,
             "dependencies": []
         }
