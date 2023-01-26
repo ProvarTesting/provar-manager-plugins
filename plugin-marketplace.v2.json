@@ -1,0 +1,234 @@
+{
+    "categories": ["Release Management", "DevOps", "Code Quality", "Testing"],
+    "corePackage": {
+        "packageName": "Provar Manager",
+        "packageId": "0334L000000Tte2QAC",
+        "packageIconUrl": "https://drive.google.com/uc?export=view&id=1qDNYy8M13oQMWhsNnqME7tBDl3FTkqNE",
+        "description": "",
+        "status": "Released",
+        "versionNumber": "2.15.0",
+        "versionId" : "04t4L000000152DQAQ",
+        "releaseDate": "2022-12-20",
+        "releaseNotes": [
+            "The Test Step Executions timeline view now supports nested steps (i.e. step hierarchy), providing a more accurate view of how the steps were executed.",
+            "Users can now order test cases within test suites."
+        ],
+        "releaseNotesUrl": "https://www.provartesting.com/documentation/release-notes/spring-23-release-1/",
+        "usageGuideUrl": "https://drive.google.com/file/d/1_fQ5zkvoEyJJHkDZjqiI65syoTqi_iPu/view?usp=share_link",
+        "securityReviewPassed": true
+    },
+    "plugins": [
+        {
+            "pluginType": "AppExchange",
+            "packageName": "Jira Plugin",
+            "packageId": "0334L000000DAI8QAO",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=1nxpKz9DOr7FVtJNiP1Vf-r7IRcQFSMux",
+            "description": "Connect to your Jira Cloud org, import projects and issues into Provar Manager, relate test cases to issues, and export defects as bugs back into Jira.",
+            "status": "Released",
+            "versionNumber": "0.3.1",
+            "versionId": "04t4L0000001528QAA",
+            "category": "Release Management",
+            "releaseDate": "2022-12-20",
+            "releaseNotes": [
+                "Updated old icons to new Provar Manager icons.",
+                "Added usage analytics.",
+                "Fixed a few bugs."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "https://drive.google.com/file/d/11lL9Zd7cWnziQ1FzQ8HhTen-AubRLGrb/view",
+            "securityReviewPassed": true,
+            "dependencies": []
+        },
+        {
+            "pluginType": "AppExchange",
+            "packageName": "Salesforce DevOps Center Plugin",
+            "packageId": "0334L000000cLNOQA2",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=1sV3TJuY78SmDIyIQO7P7v2oL4W_XRj2e",
+            "description": "Relate test cases to work items and see their execution status per environment from within the work item itself.",
+            "status": "Released",
+            "versionNumber": "0.1.0",
+            "versionId": "04t4L000000Da4bQAC",
+            "category": "DevOps",
+            "releaseDate": "2022-10-05",
+            "releaseNotes": [
+                "Relate test cases to work items using Work Item Test Case records.",
+                "Map PM system records to DOC environment records to show test executions on work item records."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "https://drive.google.com/file/d/15ttbVofteYTbn4J-Xig6qrRFLsrbOtnU/view",
+            "securityReviewPassed": true,
+            "dependencies": [
+                {
+                    "packageName": "DevOps Center",
+                    "versionNumber": "5.3.0",
+                    "versionId" : "04t6g000008nzOuAAI"
+                }
+            ]
+        },
+        {
+            "pluginType": "AppExchange",
+            "packageName": "Flosum Plugin",
+            "packageId": "0334L000000DAE1QAO",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=1SdCBGBmD-ew1AveejOxr6s6cfdynpevy",
+            "description": "Relate test cases to branches and see their execution status per environment from within the branch itself.",
+            "status": "Beta",
+            "versionNumber": "0.1.0",
+            "versionId": "04t4L000000DZsGQAW",
+            "category": "DevOps",
+            "releaseDate": "2022-06-27",
+            "releaseNotes": [
+                "Relate test cases to branches using Branch Test Case records.",
+                "Map PM system records to Flosum org records to show test executions on branch records."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "https://drive.google.com/file/d/1tS-3UP7v2K1jmbwVFsPKVIhCQ4uX3aN6/view",
+            "securityReviewPassed": false,
+            "dependencies": [
+                {
+                    "packageName": "Flosum",
+                    "versionNumber": "2.953.0",
+                    "versionId" : "04t3m000002NPlMAAW"
+                }
+            ]
+        },
+        {
+            "pluginType": "AppExchange",
+            "packageName": "Copado Plugin",
+            "packageId": "0334L000000DAJaQAO",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=1-UVt_zf8-YXNnx6Yqf9PFiGz09JrieaC",
+            "description": "Relate test cases to user stories and see their execution status per environment from within the user story itself.",
+            "status": "Beta",
+            "versionNumber": "0.1.0",
+            "versionId": "04t4L00000014p7QAA",
+            "category": "DevOps",
+            "releaseDate": "2022-10-25",
+            "releaseNotes": [
+                "Relate test cases to user stories using User Story Test Case records.",
+                "Map PM system records to Copado environment records to show test executions on user story records."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "https://drive.google.com/file/d/1T3ppoJbSJ4A2yUnj-A4vRxVr9OVBP1Kr/view",
+            "securityReviewPassed": false,
+            "dependencies": [
+                {
+                    "packageName": "Copado Deployer",
+                    "versionNumber": "20.0.0",
+                    "versionId" : "04t5p000000Xdf2AAC"
+                }
+            ]
+        },
+        {
+            "pluginType": "AppExchange",
+            "packageName": "QualityClouds Plugin",
+            "packageId": "0334L000000935aQAA",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=1GL41dBJwXREMxHRqkt9w6VduH5_5NGQu",
+            "description": "Connect to QualityClouds and retrieve code scans so they can be analysed in Provar Manager.",
+            "status": "Beta",
+            "versionNumber": "0.1.0",
+            "versionId": "04t4L00000014vkQAA",
+            "category": "Code Quality",
+            "releaseDate": "2022-11-21",
+            "releaseNotes": [
+                "Store QualityClouds API Token for each System record.",
+                "Get Code Scans on schedule or on-demand from the System record."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "",
+            "securityReviewPassed": false,
+            "dependencies": []
+        },
+        {
+            "pluginType": "AppExchange",
+            "packageName": "Clayton Plugin",
+            "packageId": "0334L000000935pQAA",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=1096wNmuYzHQ_76sDqXwTYgaumcl8ihtI",
+            "description": "Connect to Clayton and retrieve code scans so they can be analysed in Provar Manager.",
+            "status": "Beta",
+            "versionNumber": "0.1.0",
+            "versionId": "04t4L000000151oQAA",
+            "category": "Code Quality",
+            "releaseDate": "2022-12-14",
+            "releaseNotes": [
+                "Define Clayton accounts and projects that match the structure in Clayton.",
+                "Get Code Scans on schedule or on-demand from the System record."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "",
+            "securityReviewPassed": false,
+            "dependencies": []
+        },
+        {
+            "pluginType": "AppExchange",
+            "packageName": "Azure DevOps Plugin",
+            "packageId": "0334L00000093B5QAI",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=1EooYNQKPiEbO7IXQ6CUZK77NXa0aZM-k",
+            "description": "Connect to your Azure DevOps org, import projects and work items into Provar Manager, relate test cases to work items, and export defects as bugs back into Azure DevOps.",
+            "status": "Beta",
+            "versionNumber": "0.2.0",
+            "versionId": "04t4L000000152NQAQ",
+            "category": "Release Management",
+            "releaseDate": "2022-12-15",
+            "releaseNotes": [
+                "Connect Provar Manager to Azure DevOps.",
+                "Import projects with their work item types and work item relation types.",
+                "Import work items of any type.",
+                "Send bugs to Azure DevOps from the defect record and have it automatically linked to the related work item."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "https://drive.google.com/file/d/1yarqZK4f9AnmIwspvFx9XY2VvAB6Adgb/view",
+            "securityReviewPassed": false,
+            "dependencies": []
+        },
+        {
+            "pluginType": "External",
+            "packageName": "Provar Automation",
+            "packageId": "provar_automation",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=12wnyBzsSr1jtR3trXOwM1rjZMrXT63A4",
+            "description": "Provar Automation is an end-to-end test automation solution designed especially for Salesforce.",
+            "status": "Released",
+            "versionNumber": "2.9.0",
+            "category": "Testing",
+            "releaseDate": "2023-01-06",
+            "releaseNotes": [
+                "Verified compatibility with Salesforce Spring 23 release",
+                "Provar Manager Integration supporting callable test cases and usability fixes",
+                "Extended support for Dynamic Forms & visibility criteria",
+                "LambdaTest Remote Browser Integration",
+                "Chrome 108 and 109"
+            ],
+            "releaseNotesUrl": "https://www.provartesting.com/documentation/release-notes/spring-23-release-1/",
+            "usageGuideUrl": "https://www.provartesting.com/documentation/",
+            "files": [
+                {
+                    "fileName": "Automation v2.9.0 Win 64-bit (Full Install)",
+                    "fileURL": "https://download.provartesting.com/2.9.0/Provar_setup_v2.9.0.02_win_64.exe"
+                },
+                {
+                    "fileName": "Automation v2.9.0 Mac OSX",
+                    "fileURL": "https://download.provartesting.com/2.9.0/Provar_2.9.0.02_macos_signed.pkg"
+                },
+                {
+                    "fileName": "Automation v2.9.0 Provar CLI (ANT/ProvarDX)",
+                    "fileURL": "https://download.provartesting.com/2.9.0/Provar_ANT_2.9.0.02.zip"
+                }
+            ]
+        },
+        {
+            "pluginType": "External",
+            "packageName": "Provar Plugin for Jenkins",
+            "packageId": "provar_automation_jenkins",
+            "packageIconUrl": "https://drive.google.com/uc?export=view&id=1o7U-98Ik6Am8camE9rjwMFfbDRKD0orP",
+            "description": "This Jenkins plugin lets you set up and configure an environment to run Provar Automation tests with limited manual effort.",
+            "status": "Released",
+            "versionNumber": "1.1.1",
+            "category": "Testing",
+            "releaseDate": "2023-01-04",
+            "releaseNotes": [
+                "Removed JDK 8 from build path in Jenkinsfile",
+                "Updated Jenkins BOM and Jenkins minimum version"
+            ],
+            "releaseNotesUrl": "https://plugins.jenkins.io/provar-automation/#releases",
+            "usageGuideUrl": "https://github.com/jenkinsci/provar-automation-plugin"
+        }
+    ]
+}
