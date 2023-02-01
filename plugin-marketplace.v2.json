@@ -7,12 +7,13 @@
         "packageIconUrl": "https://drive.google.com/uc?export=view&id=1qDNYy8M13oQMWhsNnqME7tBDl3FTkqNE",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "2.15.0",
-        "versionId" : "04t4L000000152DQAQ",
-        "releaseDate": "2022-12-20",
+        "versionNumber": "2.17.0",
+        "versionId" : "04t4L000000153uQAA",
+        "releaseDate": "2023-01-31",
         "releaseNotes": [
-            "The Test Step Executions timeline view now supports nested steps (i.e. step hierarchy), providing a more accurate view of how the steps were executed.",
-            "Users can now order test cases within test suites."
+            "Plugin Marketplace now includes non-AppExchange apps and allows users to easily update Provar Manager itself.",
+            "Testers can now specify which test suites and test cases to run on a Test Plan Schedule, regardless of what's on the test plan. Salesforce (Apex) supports this new feature.",
+            "DevOps engineers can leverage 2 new Flow templates to add automated testing to their pipelines: Run test cases and Run metadata-related test cases."
         ],
         "releaseNotesUrl": "https://www.provartesting.com/documentation/release-notes/spring-23-release-1/",
         "usageGuideUrl": "https://drive.google.com/file/d/1_fQ5zkvoEyJJHkDZjqiI65syoTqi_iPu/view?usp=share_link",
@@ -45,15 +46,14 @@
             "packageName": "Salesforce DevOps Center Plugin",
             "packageId": "0334L000000cLNOQA2",
             "packageIconUrl": "https://drive.google.com/uc?export=view&id=1sV3TJuY78SmDIyIQO7P7v2oL4W_XRj2e",
-            "description": "Relate test cases to work items and see their execution status per environment from within the work item itself.",
+            "description": "Embed manual and automated testing into your release pipeline.",
             "status": "Released",
-            "versionNumber": "0.1.0",
-            "versionId": "04t4L000000Da4bQAC",
+            "versionNumber": "0.2.1",
+            "versionId": "04t4L0000001549QAA",
             "category": "DevOps",
-            "releaseDate": "2022-10-05",
+            "releaseDate": "2023-01-31",
             "releaseNotes": [
-                "Relate test cases to work items using Work Item Test Case records.",
-                "Map PM system records to DOC environment records to show test executions on work item records."
+                "DevOps engineers can leverage 2 new Flow templates to automatically trigger the execution of test cases directly or indirectly related to a work item when its status changes to 'In Review'"
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/15ttbVofteYTbn4J-Xig6qrRFLsrbOtnU/view",
@@ -201,16 +201,16 @@
             "usageGuideUrl": "https://www.provartesting.com/documentation/",
             "files": [
                 {
-                    "fileName": "Automation v2.9.0 Win 64-bit (Full Install)",
-                    "fileURL": "https://download.provartesting.com/2.9.0/Provar_setup_v2.9.0.02_win_64.exe"
+                    "fileName": "Win 64-bit (Full Install)",
+                    "fileURL": "https://download.provartesting.com/latest/Provar_setup_latest_win_64.exe"
                 },
                 {
-                    "fileName": "Automation v2.9.0 Mac OSX",
-                    "fileURL": "https://download.provartesting.com/2.9.0/Provar_2.9.0.02_macos_signed.pkg"
+                    "fileName": "Mac OSX",
+                    "fileURL": "https://download.provartesting.com/latest/Provar_latest_macos_signed.pkg"
                 },
                 {
-                    "fileName": "Automation v2.9.0 Provar CLI (ANT/ProvarDX)",
-                    "fileURL": "https://download.provartesting.com/2.9.0/Provar_ANT_2.9.0.02.zip"
+                    "fileName": "Provar CLI (ANT/ProvarDX)",
+                    "fileURL": "https://download.provartesting.com/latest/Provar_ANT_latest.zip"
                 }
             ]
         },
