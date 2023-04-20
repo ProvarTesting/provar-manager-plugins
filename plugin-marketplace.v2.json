@@ -61,8 +61,8 @@
             "dependencies": [
                 {
                     "packageName": "DevOps Center",
-                    "versionNumber": "5.3.0",
-                    "versionId" : "04t6g000008nzOuAAI"
+                    "versionNumber": "5.5.0",
+                    "versionId" : "04t6g000008b24gAAA"
                 }
             ]
         },
@@ -164,7 +164,7 @@
             "packageId": "0334L00000093B5QAI",
             "packageIconUrl": "https://drive.google.com/uc?export=view&id=1EooYNQKPiEbO7IXQ6CUZK77NXa0aZM-k",
             "description": "Connect to your Azure DevOps org, import projects and work items into Provar Manager, relate test cases to work items, and export defects as bugs back into Azure DevOps.",
-            "status": "Beta",
+            "status": "Released",
             "versionNumber": "0.2.1",
             "versionId": "04t4L000000155bQAA",
             "category": "Release Management",
