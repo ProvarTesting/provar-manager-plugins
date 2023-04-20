@@ -165,8 +165,8 @@
             "packageIconUrl": "https://drive.google.com/uc?export=view&id=1EooYNQKPiEbO7IXQ6CUZK77NXa0aZM-k",
             "description": "Connect to your Azure DevOps org, import projects and work items into Provar Manager, relate test cases to work items, and export defects as bugs back into Azure DevOps.",
             "status": "Beta",
-            "versionNumber": "0.2.0",
-            "versionId": "04t4L000000152NQAQ",
+            "versionNumber": "0.2.1",
+            "versionId": "04t4L000000155bQAA",
             "category": "Release Management",
             "releaseDate": "2022-12-15",
             "releaseNotes": [
@@ -177,7 +177,7 @@
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/1yarqZK4f9AnmIwspvFx9XY2VvAB6Adgb/view",
-            "securityReviewPassed": false,
+            "securityReviewPassed": true,
             "dependencies": []
         },
         {
@@ -187,17 +187,16 @@
             "packageIconUrl": "https://drive.google.com/uc?export=view&id=12wnyBzsSr1jtR3trXOwM1rjZMrXT63A4",
             "description": "Provar Automation is an end-to-end test automation solution designed especially for Salesforce.",
             "status": "Released",
-            "versionNumber": "2.9.0",
+            "versionNumber": "2.9.2",
             "category": "Testing",
-            "releaseDate": "2023-01-06",
+            "releaseDate": "2023-03-20",
             "releaseNotes": [
-                "Verified compatibility with Salesforce Spring 23 release",
-                "Provar Manager Integration supporting callable test cases and usability fixes",
-                "Extended support for Dynamic Forms & visibility criteria",
-                "LambdaTest Remote Browser Integration",
-                "Chrome 108 and 109"
+                "Eclipse Upgrade 4.25",
+                "Java 11 Upgrade",
+                "Dynamic Activity Composer",
+                "Provar Manager – Download Test Cases"
             ],
-            "releaseNotesUrl": "https://www.provartesting.com/documentation/release-notes/spring-23-release-1/",
+            "releaseNotesUrl": "https://www.provartesting.com/documentation/release-notes/spring-23-release-3/",
             "usageGuideUrl": "https://www.provartesting.com/documentation/",
             "files": [
                 {
