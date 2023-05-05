@@ -52,12 +52,12 @@
             "packageIconUrl": "https://drive.google.com/uc?export=view&id=1sV3TJuY78SmDIyIQO7P7v2oL4W_XRj2e",
             "description": "Embed manual and automated testing into your release pipeline.",
             "status": "Released",
-            "versionNumber": "0.2.1",
-            "versionId": "04t4L0000001549QAA",
+            "versionNumber": "0.3.0",
+            "versionId": "04t4L000000UGeAQAW",
             "category": "DevOps",
-            "releaseDate": "2023-01-31",
+            "releaseDate": "2023-05-05",
             "releaseNotes": [
-                "DevOps engineers can leverage 2 new Flow templates to automatically trigger the execution of test cases directly or indirectly related to a work item when its status changes to 'In Review'"
+                "DevOps engineers can leverage 2 new Quality Pipelines (i.e. flow templates) to automatically trigger the execution in Provar Grid of Provar test cases directly or indirectly related to a work item when its status changes to 'In Review'"
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/15ttbVofteYTbn4J-Xig6qrRFLsrbOtnU/view",
