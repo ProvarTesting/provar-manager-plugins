@@ -7,15 +7,19 @@
         "packageIconUrl": "https://drive.google.com/uc?export=view&id=1qDNYy8M13oQMWhsNnqME7tBDl3FTkqNE",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "2.17.0",
-        "versionId" : "04t4L000000153uQAA",
-        "releaseDate": "2023-01-31",
+        "versionNumber": "2.19.0",
+        "versionId" : "04t4L000000UGdgQAG",
+        "releaseDate": "2023-05-04",
         "releaseNotes": [
-            "Plugin Marketplace now includes non-AppExchange apps and allows users to easily update Provar Manager itself.",
-            "Testers can now specify which test suites and test cases to run on a Test Plan Schedule, regardless of what's on the test plan. Salesforce (Apex) supports this new feature.",
-            "DevOps engineers can leverage 2 new Flow templates to add automated testing to their pipelines: Run test cases and Run metadata-related test cases."
+            "Quality Journey is the new home page. It helps users continue their quality activities more easily",
+            "Quality Center is a new interactive dashboard where users can understand how their testing activities are going from the point of view of their environments or test projects",
+            "Users can connect to Azure DevOps to import repositories and their branches for testing purposes (e.g. test execution via Grid) ",
+            "The AI engine used to generate design test cases has been upgraded to gpt-3.5-turbo which is 10x cheaper and more powerful",
+            "Scheduled job results can be retrieved manually by clicking the “Get Results” button",
+            "A copy of the Schedule’s settings is stored in the Schedule Job record",
+            "Icons have been updated as per the latest branding"
         ],
-        "releaseNotesUrl": "https://www.provartesting.com/documentation/release-notes/spring-23-release-1/",
+        "releaseNotesUrl": "",
         "usageGuideUrl": "https://drive.google.com/file/d/1_fQ5zkvoEyJJHkDZjqiI65syoTqi_iPu/view?usp=share_link",
         "securityReviewPassed": true
     },
