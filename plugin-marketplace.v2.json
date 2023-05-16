@@ -7,9 +7,9 @@
         "packageIconUrl": "https://drive.google.com/uc?export=view&id=1qDNYy8M13oQMWhsNnqME7tBDl3FTkqNE",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "2.19.0",
-        "versionId" : "04t4L000000UGdgQAG",
-        "releaseDate": "2023-05-04",
+        "versionNumber": "2.19.1",
+        "versionId" : "04t4L000000UGeKQAW",
+        "releaseDate": "2023-05-12",
         "releaseNotes": [
             "Quality Journey is the new home page. It helps users continue their quality activities more easily",
             "Quality Center is a new interactive dashboard where users can understand how their testing activities are going from the point of view of their environments or test projects",
