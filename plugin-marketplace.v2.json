@@ -7,17 +7,13 @@
         "packageIconUrl": "https://drive.google.com/uc?export=view&id=1qDNYy8M13oQMWhsNnqME7tBDl3FTkqNE",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "2.19.1",
-        "versionId" : "04t4L000000UGeKQAW",
-        "releaseDate": "2023-05-12",
+        "versionNumber": "2.20.0",
+        "versionId" : "04t4L000000gz7XQAQ",
+        "releaseDate": "2023-05-30",
         "releaseNotes": [
-            "Quality Journey is the new home page. It helps users continue their quality activities more easily",
-            "Quality Center is a new interactive dashboard where users can understand how their testing activities are going from the point of view of their environments or test projects",
-            "Users can connect to Azure DevOps to import repositories and their branches for testing purposes (e.g. test execution via Grid) ",
-            "The AI engine used to generate design test cases has been upgraded to gpt-3.5-turbo which is 10x cheaper and more powerful",
-            "Scheduled job results can be retrieved manually by clicking the “Get Results” button",
-            "A copy of the Schedule’s settings is stored in the Schedule Job record",
-            "Icons have been updated as per the latest branding"
+            "Users can cancel scheduled jobs (e.g. Apex unit test jobs).",
+            "Environment details like Browser, Operating System, etc… can now be defined at the Test Execution level, or inherited from the Test Cycle.",
+            "Improvements to the Salesforce Connection Assistant."
         ],
         "releaseNotesUrl": "",
         "usageGuideUrl": "https://drive.google.com/file/d/1_fQ5zkvoEyJJHkDZjqiI65syoTqi_iPu/view?usp=share_link",
