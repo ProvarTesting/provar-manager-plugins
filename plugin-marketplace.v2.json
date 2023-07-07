@@ -7,13 +7,13 @@
         "packageIconUrl": "https://drive.google.com/uc?export=view&id=1qDNYy8M13oQMWhsNnqME7tBDl3FTkqNE",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "2.20.0",
-        "versionId" : "04t4L000000gz7XQAQ",
-        "releaseDate": "2023-05-30",
+        "versionNumber": "2.21.0",
+        "versionId" : "04t4L000000gz9sQAA",
+        "releaseDate": "2023-07-07",
         "releaseNotes": [
-            "Users can cancel scheduled jobs (e.g. Apex unit test jobs).",
-            "Environment details like Browser, Operating System, etc… can now be defined at the Test Execution level, or inherited from the Test Cycle.",
-            "Improvements to the Salesforce Connection Assistant."
+            "UX improvements to the Test Case Metadata Coverage Assistant.",
+            "Scalability improvements to Apex unit test reporting.",
+            "UX improvements to VCS and Metadata modules."
         ],
         "releaseNotesUrl": "",
         "usageGuideUrl": "https://drive.google.com/file/d/1_fQ5zkvoEyJJHkDZjqiI65syoTqi_iPu/view?usp=share_link",
