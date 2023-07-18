@@ -200,12 +200,16 @@
             "usageGuideUrl": "https://www.provartesting.com/documentation/",
             "files": [
                 {
-                    "fileName": "Win 64-bit (Full Install)",
+                    "fileName": "Windows 64-bit (Full Install)",
                     "fileURL": "https://download.provartesting.com/latest/Provar_setup_latest_win_64.exe"
                 },
                 {
-                    "fileName": "Mac OSX",
+                    "fileName": "macOS (Intel chip)",
                     "fileURL": "https://download.provartesting.com/latest/Provar_latest_macos_signed.pkg"
+                },
+                {
+                    "fileName": "macOS (Apple chip)",
+                    "fileURL": "https://download.provartesting.com/latest/Provar_latest_macos_aarch64_signed.pkg"
                 },
                 {
                     "fileName": "Provar CLI (ANT/ProvarDX)",
