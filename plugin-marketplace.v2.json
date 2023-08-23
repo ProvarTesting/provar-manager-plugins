@@ -7,13 +7,14 @@
         "packageIconUrl": "https://drive.google.com/uc?export=view&id=1qDNYy8M13oQMWhsNnqME7tBDl3FTkqNE",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "2.21.0",
-        "versionId" : "04t4L000000gz9sQAA",
-        "releaseDate": "2023-07-07",
+        "versionNumber": "2.22.0",
+        "versionId" : "04t4L00000051KKQAY",
+        "releaseDate": "2023-08-23",
         "releaseNotes": [
-            "UX improvements to the Test Case Metadata Coverage Assistant.",
-            "Scalability improvements to Apex unit test reporting.",
-            "UX improvements to VCS and Metadata modules."
+            "Users can leverage AI to generate a preliminary Root Cause Analysis report from defect records related to Apex unit test executions",
+            "Quality Center now supports custom date ranges",
+            "Users can retry test executions from the Test Cycle record page. Grid and Salesforce Apex are supported",
+            "The Test Executions component on the Test Cycle record page now shows the platform and browser when present"            
         ],
         "releaseNotesUrl": "",
         "usageGuideUrl": "https://drive.google.com/file/d/1_fQ5zkvoEyJJHkDZjqiI65syoTqi_iPu/view?usp=share_link",
