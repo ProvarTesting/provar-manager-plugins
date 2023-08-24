@@ -28,14 +28,14 @@
             "packageIconUrl": "https://drive.google.com/uc?export=view&id=1nxpKz9DOr7FVtJNiP1Vf-r7IRcQFSMux",
             "description": "Connect to your Jira Cloud org, import projects and issues into Provar Manager, relate test cases to issues, and export defects as bugs back into Jira.",
             "status": "Released",
-            "versionNumber": "0.3.1",
-            "versionId": "04t4L0000001528QAA",
+            "versionNumber": "0.4.0",
+            "versionId": "04t4L00000051KZQAY",
             "category": "Release Management",
-            "releaseDate": "2022-12-20",
+            "releaseDate": "2023-08-24",
             "releaseNotes": [
                 "Updated old icons to new Provar Manager icons.",
-                "Added usage analytics.",
-                "Fixed a few bugs."
+                "Changed implementation of issue creation in Jira Bug LWC",
+                "Downgrade Jira API version to 2.0"
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/11lL9Zd7cWnziQ1FzQ8HhTen-AubRLGrb/view",
