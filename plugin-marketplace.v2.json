@@ -24,17 +24,15 @@
             "packageName": "Jira Plugin",
             "packageId": "0334L000000DAI8QAO",
             "packageIconUrl": "https://drive.google.com/uc?export=view&id=1nxpKz9DOr7FVtJNiP1Vf-r7IRcQFSMux",
-            "description": "Connect to your Jira Cloud org, import projects and issues into Provar Manager, relate test cases to issues, and export defects as bugs back into Jira.",
+            "description": "Connect to your Jira org, import projects and issues into Provar Manager, relate test cases to issues, and export defects as bugs back into Jira.",
             "status": "Released",
-            "versionNumber": "0.4.1",
-            "versionId": "04t4L00000051KtQAI",
+            "versionNumber": "0.5.0",
+            "versionId": "04tP30000009FpRIAU",
             "category": "Release Management",
-            "releaseDate": "2023-08-31",
+            "releaseDate": "2023-11-03",
             "releaseNotes": [
-                "Updated old icons to new Provar Manager icons.",
-                "Changed implementation of issue creation in Jira Bug LWC",
-                "Downgrade Jira API version to 2.0",
-                "Display JIRA server info on JIRA settings page"
+                "Added support for custom field mapping",
+                "User stories are imported along with their subtasks"
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/11lL9Zd7cWnziQ1FzQ8HhTen-AubRLGrb/view",
