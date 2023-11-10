@@ -7,12 +7,12 @@
         "packageIconUrl": "https://drive.google.com/uc?export=view&id=1qDNYy8M13oQMWhsNnqME7tBDl3FTkqNE",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "2.23.3",
-        "versionId" : "04tP30000007AU5IAM",
-        "releaseDate": "2023-10-19",
+        "versionNumber": "2.25.0",
+        "versionId" : "04tP3000000ABrpIAG",
+        "releaseDate": "2023-11-10",
         "releaseNotes": [
-            "A new Recent Jobs component can be used to view the latest jobs run via Provar Manager.",
-            "The test cycle retry mechanism has been improved."
+            "Test Case and Test Step field character limits increased",
+            "New Priority field on Test Case"
         ],
         "releaseNotesUrl": "",
         "usageGuideUrl": "https://drive.google.com/file/d/1_fQ5zkvoEyJJHkDZjqiI65syoTqi_iPu/view?usp=share_link",
