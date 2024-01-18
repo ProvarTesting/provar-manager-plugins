@@ -185,9 +185,9 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_automation.png",
             "description": "Provar Automation is an end-to-end test automation solution designed especially for Salesforce.",
             "status": "Released",
-            "versionNumber": "2.9.2",
+            "versionNumber": "2.12.1",
             "category": "Testing",
-            "releaseDate": "2023-03-20",
+            "releaseDate": "2024-01-05",
             "releaseNotes": [
                 "Extract and Assert Dynamic Form Layout",
                 "Support for JWT Connection Type",
