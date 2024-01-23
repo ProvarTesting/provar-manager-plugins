@@ -26,13 +26,12 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/jira.png",
             "description": "Connect to your Jira org, import projects and issues into Provar Manager, relate test cases to issues, and export defects as bugs back into Jira.",
             "status": "Released",
-            "versionNumber": "0.5.0",
-            "versionId": "04tP30000009FpRIAU",
+            "versionNumber": "0.5.1",
+            "versionId": "04tP3000000Jfx7IAC",
             "category": "Release Management",
-            "releaseDate": "2023-11-03",
+            "releaseDate": "2024-01-23",
             "releaseNotes": [
-                "Added support for custom field mapping",
-                "User stories are imported along with their subtasks"
+                "Added support for new Jira Account Ids"
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/11lL9Zd7cWnziQ1FzQ8HhTen-AubRLGrb/view",
