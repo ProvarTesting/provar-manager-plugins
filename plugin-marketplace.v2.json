@@ -122,13 +122,12 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/qualityclouds.png",
             "description": "Connect to QualityClouds and retrieve code scans so they can be analysed in Provar Manager.",
             "status": "Beta",
-            "versionNumber": "0.1.0",
-            "versionId": "04t4L00000014vkQAA",
+            "versionNumber": "0.2.0",
+            "versionId": "04tP3000000MeEvIAK",
             "category": "Code Quality",
-            "releaseDate": "2022-11-21",
+            "releaseDate": "2024-02-14",
             "releaseNotes": [
-                "Store QualityClouds API Token for each System record.",
-                "Get Code Scans on schedule or on-demand from the System record."
+                "Fix callout to QualityClouds API to retrieve code scans."
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "",
