@@ -22,7 +22,7 @@
             "Provar Grid: added support for executing schedules against multiple environments."
         ],
         "releaseNotesUrl": "",
-        "usageGuideUrl": "https://drive.google.com/file/d/1ktXUCjJEkNF4YBNfij-82ydAtJqzeJYw/view?usp=sharing",
+        "usageGuideUrl": "https://drive.google.com/file/d/1ktXUCjJEkNF4YBNfij-82ydAtJqzeJYw/view",
         "securityReviewPassed": true
     },
     "plugins": [
