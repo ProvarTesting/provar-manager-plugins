@@ -7,9 +7,9 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "3.1.0",
-        "versionId" : "04tP3000000MkU2IAK",
-        "releaseDate": "2024-02-16",
+        "versionNumber": "3.1.1",
+        "versionId" : "04tP3000000NKAvIAO",
+        "releaseDate": "2024-02-19",
         "releaseNotes": [
             "New Apps and permission sets for Release Management, Test Management, and Test Operations.",
             "New Provar Manager API to run test cases and retrieve test results.",
@@ -18,6 +18,7 @@
             "New UI tools to manage test suites.",
             "Improved Quality Center performance.",
             "Improved Apex Unit Test Coverage reporting.",
+            "Updated OpenAI models used for test case generation and RCA reporting.",
             "Provar Grid: added support for Bitbucket Enterprise Server & Cloud.",
             "Provar Grid: added support for executing schedules against multiple environments."
         ],
