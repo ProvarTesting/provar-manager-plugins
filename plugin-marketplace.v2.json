@@ -7,9 +7,9 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "3.1.1",
-        "versionId" : "04tP3000000NKAvIAO",
-        "releaseDate": "2024-02-19",
+        "versionNumber": "3.3.0",
+        "versionId" : "04tP3000000RN8bIAG",
+        "releaseDate": "2024-03-25",
         "releaseNotes": [
             "New Apps and permission sets for Release Management, Test Management, and Test Operations.",
             "New Provar Manager API to run test cases and retrieve test results.",
@@ -104,13 +104,12 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/copado.png",
             "description": "Relate test cases to user stories and see their execution status per environment from within the user story itself.",
             "status": "Beta",
-            "versionNumber": "0.1.0",
-            "versionId": "04t4L00000014p7QAA",
+            "versionNumber": "0.2.0",
+            "versionId": "04tP3000000RnuHIAS",
             "category": "DevOps",
-            "releaseDate": "2022-10-25",
+            "releaseDate": "2024-03-28",
             "releaseNotes": [
-                "Relate test cases to user stories using User Story Test Case records.",
-                "Map PM system records to Copado environment records to show test executions on user story records."
+                "Include flow templates to run test cases (via Apex or Provar Grid) related to user stories or their tracked metadata, when their status changes to 'Ready for testing'."
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/1T3ppoJbSJ4A2yUnj-A4vRxVr9OVBP1Kr/view",
