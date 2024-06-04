@@ -149,13 +149,12 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/clayton.jpg",
             "description": "Connect to Clayton and retrieve code scans so they can be analysed in Provar Manager.",
             "status": "Beta",
-            "versionNumber": "0.1.0",
-            "versionId": "04t4L000000151oQAA",
+            "versionNumber": "0.2.0",
+            "versionId": "04tP3000000Zf1tIAC",
             "category": "Code Quality",
-            "releaseDate": "2022-12-14",
+            "releaseDate": "2024-06-04",
             "releaseNotes": [
-                "Define Clayton accounts and projects that match the structure in Clayton.",
-                "Get Code Scans on schedule or on-demand from the System record."
+                "Fix bug with handling of branch names."
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "",
