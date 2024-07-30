@@ -133,7 +133,7 @@
                 "Fix callout to QualityClouds API to retrieve code scans."
             ],
             "releaseNotesUrl": "",
-            "usageGuideUrl": "",
+            "usageGuideUrl": "https://drive.google.com/file/d/1VkmHYk_DvVLhgZNznKfnnFj80nz_sxxq/view",
             "securityReviewPassed": false,
             "dependencies": []
         },
@@ -152,7 +152,7 @@
                 "Fix bug with handling of branch names."
             ],
             "releaseNotesUrl": "",
-            "usageGuideUrl": "",
+            "usageGuideUrl": "https://drive.google.com/file/d/1BdEu31d2fsOse3_uNE2s5Qb44wxioxQo/view",
             "securityReviewPassed": false,
             "dependencies": []
         },
