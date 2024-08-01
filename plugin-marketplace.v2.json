@@ -7,8 +7,8 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "3.8.0",
-        "versionId" : "04tP3000000gF5tIAE",
+        "versionNumber": "3.8.1",
+        "versionId" : "04tP3000000gatVIAQ",
         "releaseDate": "2024-07-31",
         "releaseNotes": [
             "We've made adding/removing/editing issues within sprints and releases much easier to do (saving time)",
