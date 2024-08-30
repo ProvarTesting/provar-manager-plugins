@@ -188,17 +188,19 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_automation.png",
             "description": "Provar Automation is an end-to-end test automation solution designed especially for Salesforce.",
             "status": "Released",
-            "versionNumber": "2.12.1",
+            "versionNumber": "2.14.1",
             "category": "Testing",
-            "releaseDate": "2024-01-05",
+            "releaseDate": "2024-08-30",
             "releaseNotes": [
-                "Extract and Assert Dynamic Form Layout",
-                "Support for JWT Connection Type",
-                "Support for Actions & Recommendation Component with Custom Templates",
-                "Grouping Multiple Test Steps for Drag and Drop in Test Builder",
-                "Clone, Disable, or Delete Test Steps in Test Builder"
+                "Salesforce Winter '25 Compatibility",
+                "NitroX: Custom XPath Generation for Non-Unique Elements",
+                "Validation Error for Duplicate Tagname and Qualifier Combinations",
+                "Additional Security Enhancements",
+                "Fix for Picklist Options Extraction in UI Connection",
+                "Appropriate Error Message for Execution Failure",
+                "Removal of File Extensions from Test Builder Messages"
             ],
-            "releaseNotesUrl": "https://documentation.provar.com/documentation/release-notes/current-release-notes/spring-24-release-1/",
+            "releaseNotesUrl": "https://documentation.provar.com/documentation/release-notes/current-release-notes/winter-25-release-1/",
             "usageGuideUrl": "https://www.provartesting.com/documentation/",
             "files": [
                 {
