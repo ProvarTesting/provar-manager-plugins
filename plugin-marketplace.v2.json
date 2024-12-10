@@ -7,17 +7,17 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "3.11.3",
-        "versionId" : "04tP3000000rT77IAE",
-        "releaseDate": "2024-10-31",
+        "versionNumber": "3.13.0",
+        "versionId" : "04tP3000000vAdlIAE",
+        "releaseDate": "2024-12-06",
         "releaseNotes": [
-            "Sprint and Release Issue Status Report: Sprints and Releases now show the progress and the total number of related issues by their status categories (Not Started, In Progress, and Done).",
-            "Sprint and Release Quality Report: Sprints and Releases now have a Related Test Cases card that shows all the test cases related to the linked issues as well as their last execution result on any particular environment.",
-            "Test Case and Test Suite Summaries: The Test Case Summary and Test Suite Description have been moved from the Details section to its own section at the top of the page, and can now be generated with AI.",
-            "Support Test Case Execution via API: The Provar Manager API now supports running individual test cases on Provar Grid, taking better advantage of parallel executions to reduce the total run time.",
-            "[Fix] When deleting Code Scans, Test Cases, Test Steps, or Test Plan Schedules, Provar Manager will automatically delete any attached files. When deleting Test Cycles, Provar Manager will also delete files attached to their Test Executions, Test Step Executions, and Test Results Processing Jobs."
+            "New User Experience Hub app to define personas, design user journeys, and track UX pain points and UX opportunities.",
+            "Extended support to import Metadata Components using Org Browser (custom objects and fields, visualforce pages, Aura components, LWCs)",
+            "Test Project migration from TestRail",
+            "Improvements to Generic API test plan schedules",
+            "Added disclosure to all AI-powered features"
         ],
-        "releaseNotesUrl": "https://documentation.provar.com/documentation/support/provar-manager-v3-11-1/",
+        "releaseNotesUrl": "",
         "usageGuideUrl": "https://drive.google.com/file/d/1ktXUCjJEkNF4YBNfij-82ydAtJqzeJYw/view",
         "securityReviewPassed": true
     },
