@@ -12,7 +12,7 @@
         "releaseDate": "2024-12-06",
         "releaseNotes": [
             "New User Experience Hub app to define personas, design user journeys, and track UX pain points and UX opportunities.",
-            "Extended support to import Metadata Components using Org Browser (custom objects and fields, visualforce pages, Aura components, LWCs)",
+            "Extended support to import Metadata Components using Org Browser (custom objects and fields, Visualforce pages, Aura components, LWCs)",
             "Test Project migration from TestRail",
             "Improvements to Generic API test plan schedules",
             "Added disclosure to all AI-powered features"
