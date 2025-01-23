@@ -7,8 +7,8 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "3.13.0",
-        "versionId" : "04tP3000000vAdlIAE",
+        "versionNumber": "3.13.1",
+        "versionId" : "04tP30000010fdhIAA",
         "releaseDate": "2024-12-06",
         "releaseNotes": [
             "New User Experience Hub app to define personas, design user journeys, and track UX pain points and UX opportunities.",
@@ -65,6 +65,24 @@
                     "versionId" : "04t6g000008b24gAAA"
                 }
             ]
+        },
+        {
+            "pluginType": "AppExchange",
+            "packageName": "Salesforce Agentforce Plugin",
+            "packageId": "033P30000002kbRIAQ",
+            "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/salesforce.png",
+            "description": "Run tests using Salesforce Agentforce.",
+            "status": "Released",
+            "versionNumber": "0.1.0",
+            "versionId": "04tP3000000t81lIAA",
+            "category": "Testing",
+            "releaseDate": "2024-11-20",
+            "releaseNotes": [
+                "Provar Manager users can leverage Agentforce to trigger the execution of tests (using test plan schedules)."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "https://drive.google.com/file/d/1n-XV2JjvD4A7ydAuN3PBB8muNGGrsR_O/view",
+            "securityReviewPassed": true
         },
         {
             "pluginType": "AppExchange",
