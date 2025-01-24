@@ -7,8 +7,8 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "3.13.1",
-        "versionId" : "04tP30000010fdhIAA",
+        "versionNumber": "3.13.2",
+        "versionId" : "04tP30000010mP3IAI",
         "releaseDate": "2024-12-06",
         "releaseNotes": [
             "New User Experience Hub app to define personas, design user journeys, and track UX pain points and UX opportunities.",
