@@ -69,7 +69,7 @@
         {
             "pluginType": "AppExchange",
             "packageName": "Salesforce DevOps Testing Plugin",
-            "packageId": "0334L000000cLNOQA2",
+            "packageId": "033P30000001y6zIAA",
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/devops_center.png",
             "description": "Embed manual and automated testing into your release pipeline.",
             "status": "Beta",
