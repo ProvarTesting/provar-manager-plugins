@@ -9,7 +9,7 @@
         "status": "Released",
         "versionNumber": "3.13.3",
         "versionId" : "04tP30000017Hy1IAE",
-        "releaseDate": "2025-31-03",
+        "releaseDate": "2025-03-21",
         "releaseNotes": [
             "New User Experience Hub app to define personas, design user journeys, and track UX pain points and UX opportunities.",
             "Extended support to import Metadata Components using Org Browser (custom objects and fields, Visualforce pages, Aura components, LWCs)",
