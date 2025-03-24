@@ -7,15 +7,16 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "3.13.2",
-        "versionId" : "04tP30000010mP3IAI",
-        "releaseDate": "2024-12-06",
+        "versionNumber": "3.13.3",
+        "versionId" : "04tP30000017Hy1IAE",
+        "releaseDate": "2025-31-03",
         "releaseNotes": [
             "New User Experience Hub app to define personas, design user journeys, and track UX pain points and UX opportunities.",
             "Extended support to import Metadata Components using Org Browser (custom objects and fields, Visualforce pages, Aura components, LWCs)",
             "Test Project migration from TestRail",
             "Improvements to Generic API test plan schedules",
-            "Added disclosure to all AI-powered features"
+            "Added disclosure to all AI-powered features",
+            "Added support for Java 21 with release of Provar Automation 2.15.2"
         ],
         "releaseNotesUrl": "",
         "usageGuideUrl": "https://drive.google.com/file/d/1ktXUCjJEkNF4YBNfij-82ydAtJqzeJYw/view",
