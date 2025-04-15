@@ -49,12 +49,13 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/devops_center.png",
             "description": "Embed manual and automated testing into your release pipeline.",
             "status": "Released",
-            "versionNumber": "0.3.0",
-            "versionId": "04t4L000000UGeAQAW",
+            "versionNumber": "0.3.1",
+            "versionId": "04tP30000019eqTIAQ",
             "category": "DevOps",
-            "releaseDate": "2023-05-05",
+            "releaseDate": "2025-04-15",
             "releaseNotes": [
-                "DevOps engineers can leverage 2 new Quality Pipelines (i.e. flow templates) to automatically trigger the execution in Provar Grid of Provar test cases directly or indirectly related to a work item when its status changes to 'In Review'"
+                "DevOps engineers can leverage 2 new Quality Pipelines (i.e. flow templates) to automatically trigger the execution in Provar Grid of Provar test cases directly or indirectly related to a work item when its status changes to 'In Review'",
+                "Fixed package installation issue."
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/15ttbVofteYTbn4J-Xig6qrRFLsrbOtnU/view",
@@ -122,13 +123,14 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/flosum.png",
             "description": "Relate test cases to branches and see their execution status per environment from within the branch itself.",
             "status": "Beta",
-            "versionNumber": "0.1.0",
-            "versionId": "04t4L000000DZsGQAW",
+            "versionNumber": "0.2.0",
+            "versionId": "04tP30000017tX3IAI",
             "category": "DevOps",
-            "releaseDate": "2022-06-27",
+            "releaseDate": "2025-03-26",
             "releaseNotes": [
                 "Relate test cases to branches using Branch Test Case records.",
-                "Map PM system records to Flosum org records to show test executions on branch records."
+                "Map PM system records to Flosum org records to show test executions on branch records.",
+                "Fixed vulnerabilities from code scan tools."
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/1tS-3UP7v2K1jmbwVFsPKVIhCQ4uX3aN6/view",
