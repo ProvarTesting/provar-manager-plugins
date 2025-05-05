@@ -75,12 +75,13 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/devops_center.png",
             "description": "Embed manual and automated testing into your release pipeline.",
             "status": "Beta",
-            "versionNumber": "0.1.0",
-            "versionId": "04tP30000012L6DIAU",
+            "versionNumber": "0.4.0",
+            "versionId": "04tP3000001C4vJIAS",
             "category": "DevOps",
-            "releaseDate": "2025-02-12",
+            "releaseDate": "2025-05-01",
             "releaseNotes": [
-                "DevOps engineers can sync test cases from Provar Manager to DevOps Testing and triggers tests to run in the pipeline."
+                "DevOps engineers can sync test cases from Provar Manager to DevOps Testing and triggers tests to run in the pipeline.",
+                "Fixed vulnerabilities from code scan tools."
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/1KhjUVjlpPM-l3Dj7dukP8qGdkz46L577/view",
@@ -88,13 +89,13 @@
             "dependencies": [
                 {
                     "packageName": "DevOps Center",
-                    "versionNumber": "8.2.0",
-                    "versionId" : "04t6g000008wQlpAAE"
+                    "versionNumber": "10.1.0",
+                    "versionId" : "04t6g000008wTEPAA2"
                 },
                 {
-                    "packageName": "DevOps Testing (Pilot)",
-                    "versionNumber": "1.2.1",
-                    "versionId" : "04t6g000008wQp8AAE"
+                    "packageName": "DevOps Testing",
+                    "versionNumber": "1.5.0",
+                    "versionId" : "04tKf0000000UFRIA2"
                 }
             ]
         },
