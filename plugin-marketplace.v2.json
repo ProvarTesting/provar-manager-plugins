@@ -7,16 +7,17 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "3.13.3",
-        "versionId" : "04tP30000017Hy1IAE",
-        "releaseDate": "2025-03-21",
+        "versionNumber": "3.13.4",
+        "versionId" : "04tP3000001D0UfIAK",
+        "releaseDate": "2025-05-09",
         "releaseNotes": [
             "New User Experience Hub app to define personas, design user journeys, and track UX pain points and UX opportunities.",
             "Extended support to import Metadata Components using Org Browser (custom objects and fields, Visualforce pages, Aura components, LWCs)",
             "Test Project migration from TestRail",
             "Improvements to Generic API test plan schedules",
             "Added disclosure to all AI-powered features",
-            "Added support for Java 21 with release of Provar Automation 2.15.2"
+            "Added support for Java 21 with release of Provar Automation 2.15.2",
+            "Removed User Experience Journey Access from PM"
         ],
         "releaseNotesUrl": "",
         "usageGuideUrl": "https://drive.google.com/file/d/1ktXUCjJEkNF4YBNfij-82ydAtJqzeJYw/view",
@@ -214,15 +215,16 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/azure_devops.png",
             "description": "Connect to your Azure DevOps org, import projects and work items into Provar Manager, relate test cases to work items, and export defects as bugs back into Azure DevOps.",
             "status": "Released",
-            "versionNumber": "0.2.1",
-            "versionId": "04t4L000000155bQAA",
+            "versionNumber": "0.2.2",
+            "versionId": "04tP3000001CzTlIAK",
             "category": "Release Management",
-            "releaseDate": "2022-12-15",
+            "releaseDate": "2025-05-09",
             "releaseNotes": [
                 "Connect Provar Manager to Azure DevOps.",
                 "Import projects with their work item types and work item relation types.",
                 "Import work items of any type.",
-                "Send bugs to Azure DevOps from the defect record and have it automatically linked to the related work item."
+                "Send bugs to Azure DevOps from the defect record and have it automatically linked to the related work item.",
+                "Bug Fixes and Improved Stability"
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/1yarqZK4f9AnmIwspvFx9XY2VvAB6Adgb/view",
