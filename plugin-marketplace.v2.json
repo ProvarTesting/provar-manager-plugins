@@ -238,17 +238,18 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_automation.png",
             "description": "Provar Automation is an end-to-end test automation solution designed especially for Salesforce.",
             "status": "Released",
-            "versionNumber": "2.14.2",
+            "versionNumber": "2.16.1",
             "category": "Testing",
-            "releaseDate": "2024-11-14",
+            "releaseDate": "2025-05-09",
             "releaseNotes": [
-                "Environment variable for MS Exchange Connection",
-                "Customise Browser Driver location",
-                "MS Exchange Office 365 GCC High Connection",
-                "NitroX: Automatic Root Component Definitions",
-                "NitroX: Vlocity Insurance LWC Components"
+                "Added support for Post Lead Convert screen",
+                "Enhanced Salesforce element identifier",
+                "Assert Layout now supports long record type names",
+                "Layout extraction now works with special characters",
+                "Excel Write step now writes immediately after the header",
+                "Improved Java 21 compatibility and fixed intermittent execution issues"
             ],
-            "releaseNotesUrl": "https://documentation.provar.com/documentation/release-notes/current-release-notes/winter-25-release-1/",
+            "releaseNotesUrl": "https://documentation.provar.com/documentation/summer-25-release-1/",
             "usageGuideUrl": "https://www.provartesting.com/documentation/",
             "files": [
                 {
