@@ -64,8 +64,8 @@
             "dependencies": [
                 {
                     "packageName": "DevOps Center",
-                    "versionNumber": "5.5.0",
-                    "versionId" : "04t6g000008b24gAAA"
+                    "versionNumber": "10.1.0",
+                    "versionId" : "04t6g000008wTEPAA2"
                 }
             ]
         },
@@ -75,7 +75,7 @@
             "packageId": "033P30000001y6zIAA",
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/devops_center.png",
             "description": "Embed manual and automated testing into your release pipeline.",
-            "status": "Beta",
+            "status": "Released",
             "versionNumber": "0.4.0",
             "versionId": "04tP3000001C4vJIAS",
             "category": "DevOps",
@@ -86,7 +86,7 @@
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/1KhjUVjlpPM-l3Dj7dukP8qGdkz46L577/view",
-            "securityReviewPassed": false,
+            "securityReviewPassed": true,
             "dependencies": [
                 {
                     "packageName": "DevOps Center",
@@ -125,10 +125,10 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/flosum.png",
             "description": "Relate test cases to branches and see their execution status per environment from within the branch itself.",
             "status": "Beta",
-            "versionNumber": "0.2.0",
-            "versionId": "04tP30000017tX3IAI",
+            "versionNumber": "0.3.0",
+            "versionId": "04tP3000001FyphIAC",
             "category": "DevOps",
-            "releaseDate": "2025-03-26",
+            "releaseDate": "2025-06-05",
             "releaseNotes": [
                 "Relate test cases to branches using Branch Test Case records.",
                 "Map PM system records to Flosum org records to show test executions on branch records.",
