@@ -32,7 +32,7 @@
             "versionNumber": "0.6.0",
             "versionId": "04tP3000001I4XdIAK",
             "category": "Release Management",
-            "releaseDate": "2025-6-26",
+            "releaseDate": "2025-06-26",
             "releaseNotes": [
                 "Resolved issue where importing Jira issues failed due to improper handling of IssueType field mapping and data type assignment."
             ],
