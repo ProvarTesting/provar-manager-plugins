@@ -102,7 +102,7 @@
             "pluginType": "AppExchange",
             "packageName": "Salesforce Agentforce Plugin",
             "packageId": "033P30000002kbRIAQ",
-            "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/salesforce.png",
+            "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/agentforce.png",
             "description": "Run tests using Salesforce Agentforce.",
             "status": "Released",
             "versionNumber": "0.1.0",
