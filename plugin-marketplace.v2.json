@@ -122,7 +122,7 @@
             "packageId": "0334L000000DAE1QAO",
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/flosum.png",
             "description": "Relate test cases to branches and see their execution status per environment from within the branch itself.",
-            "status": "Beta",
+            "status": "Released",
             "versionNumber": "0.3.0",
             "versionId": "04tP3000001FyphIAC",
             "category": "DevOps",
