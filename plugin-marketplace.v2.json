@@ -115,6 +115,33 @@
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/1n-XV2JjvD4A7ydAuN3PBB8muNGGrsR_O/view",
             "securityReviewPassed": true
+        },  
+        {
+            "pluginType": "AppExchange",
+            "packageName": "Gearset Plugin",
+            "packageId": "0334L000000DAE1QAO",
+            "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/gearset.svg",
+            "description": "",
+            "status": "Released",
+            "versionNumber": "0.3.2",
+            "versionId": "04tP3000001LQADIA4",
+            "category": "DevOps",
+            "releaseDate": "2025-08-07",
+            "releaseNotes": [
+                "Trigger, Cancel, and Monitor Gearset Jobs from Provar Manager.",
+                "Link Gearset CI Jobs to Provar Test Plan Schedules for a fully automated DevOps Pipeline.",
+                "Gearset Job syncing for keeping Gearset CI Job history and Provar Manager job histories in sync."
+            ],
+            "releaseNotesUrl": "",
+            "usageGuideUrl": "https://provartesting.atlassian.net/wiki/external/NTFkOWJhNWQ2ZTAyNDYwZDhhMzcxYjg1ZTEzODQ2ZWI",
+            "securityReviewPassed": false,
+            "dependencies": [
+                {
+                    "packageName": "Provar Manager",
+                    "versionNumber": "3.15.0.4",
+                    "versionId" : "04tP3000001Jo3lIAC"
+                }
+            ]
         },
         {
             "pluginType": "AppExchange",
