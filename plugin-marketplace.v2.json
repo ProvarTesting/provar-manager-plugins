@@ -121,7 +121,7 @@
             "packageName": "Gearset Plugin",
             "packageId": "0334L000000DAE1QAO",
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/gearset.svg",
-            "description": "",
+            "description": "Link Test Plans and Gearset CI Jobs to enable automated CI/CD with test automation embedded. Trigger and manage Gearset jobs from Provar Manager to streamline releases, increase test coverage, and improve delivery quality without leaving Salesforce.",
             "status": "Released",
             "versionNumber": "0.3.2",
             "versionId": "04tP3000001LQADIA4",
