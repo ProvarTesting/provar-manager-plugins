@@ -7,15 +7,14 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
         "status": "Released",
-        "versionNumber": "3.14.0",
-        "versionId" : "04tP3000001IHoDIAW",
-        "releaseDate": "2025-06-26",
+        "versionNumber": "3.15.0",
+        "versionId" : "04tP3000001NRF3IAO",
+        "releaseDate": "2025-08-11",
         "releaseNotes": [
-              "NEW In-App Guidance includes 48 prompts and walkthroughs across Provar Manager Apps, Pages, Objects, and Flows — accelerating onboarding and driving user self-sufficiency without leaving Salesforce.",
-              "NEW Reports & Dashboards for Onboarding Prompts and Walkthroughs — enabling teams to track adoption and optimize engagement based on real usage data.",
-              "NEW Release Center Dashboard in Release Management App with 2 primary views: Release Progress and Regression Progress — providing clear, actionable insights into release health and test coverage.",
-              "Provar Manager - DevOps Testing Plugin AppExchange Security Review Complete and is now listed on the AppExchange — expanding trust and availability for customers leveraging Salesforce DevOps Center & Provar.",
-              "Finished removal of all Metadata related to User Experience Hub to help streamline packaging — reducing bloat, improving install performance, and simplifying future updates."
+              "New Release Notifications: A new release notification modal now informs users of new capabilities, fixes, and updates when a release is available.",
+              "New Plugin! Provar Manager - Gearset Plugin: Trigger, cancel, and monitor Gearset Jobs from Provar Manager, link CI Jobs to Test Plan Schedules, and sync Gearset job history with Provar Manager.",
+              "Jira Plugin Enhancements & Fixes: Added one-shot Jira project import, job completion notifications, and initial phase for bi-directional sync from Provar Manager to Jira, plus various bug fixes.",
+              "Improved Email Deliverability: Enhanced Provar Manager email spam scores to improve inbox delivery and fixed issues with missing images and attachments."
         ],
         "releaseNotesUrl": "",
         "usageGuideUrl": "https://drive.google.com/file/d/1ktXUCjJEkNF4YBNfij-82ydAtJqzeJYw/view",
