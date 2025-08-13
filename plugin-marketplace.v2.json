@@ -28,12 +28,15 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/jira.png",
             "description": "Connect to your Jira org, import projects and issues into Provar Manager, relate test cases to issues, and export defects as bugs back into Jira.",
             "status": "Released",
-            "versionNumber": "0.6.0",
-            "versionId": "04tP3000001I4XdIAK",
+            "versionNumber": "0.7.0",
+            "versionId": "04tP3000001NsyPIAS",
             "category": "Release Management",
-            "releaseDate": "2025-06-26",
+            "releaseDate": "2025-08-12",
             "releaseNotes": [
-                "Resolved issue where importing Jira issues failed due to improper handling of IssueType field mapping and data type assignment."
+                "Added one-shot JIRA project import feature",
+                "Implemented Import job completion notifications",
+                "Started initial phase of bi-directional sync from Provar Manager to JIRA",
+                "Delivered various bug fixes"
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/11lL9Zd7cWnziQ1FzQ8HhTen-AubRLGrb/view",
