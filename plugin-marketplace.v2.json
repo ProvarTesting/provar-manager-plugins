@@ -39,10 +39,16 @@
                 "Started initial phase of bi-directional sync from Provar Manager to JIRA",
                 "Delivered various bug fixes"
             ],
-            "releaseNotesUrl": "",
+            "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MjRmYjc5MDQyZmQ5NGYyZWJlYTE3NDc4OTkzNzMzZDc",
             "usageGuideUrl": "https://drive.google.com/file/d/11lL9Zd7cWnziQ1FzQ8HhTen-AubRLGrb/view",
             "securityReviewPassed": true,
-            "dependencies": []
+            "dependencies": [
+                {
+                    "packageName": "Provar Manager",
+                    "versionNumber": "3.15.0.9",
+                    "versionId" : "04tP3000001NRF3IAO"
+                }
+            ]
         },
         {
             "pluginType": "AppExchange",
@@ -135,14 +141,14 @@
                 "Link Gearset CI Jobs to Provar Test Plan Schedules for a fully automated DevOps Pipeline.",
                 "Gearset Job syncing for keeping Gearset CI Job history and Provar Manager job histories in sync."
             ],
-            "releaseNotesUrl": "",
+            "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/YTgwY2RlYTM2YzgzNDlhZGI0ZDFhMDZmYzc0MDJmZjg",
             "usageGuideUrl": "https://provartesting.atlassian.net/wiki/external/NTFkOWJhNWQ2ZTAyNDYwZDhhMzcxYjg1ZTEzODQ2ZWI",
             "securityReviewPassed": false,
             "dependencies": [
                 {
                     "packageName": "Provar Manager",
-                    "versionNumber": "3.15.0.4",
-                    "versionId" : "04tP3000001Jo3lIAC"
+                    "versionNumber": "3.15.0.9",
+                    "versionId" : "04tP3000001NRF3IAO"
                 }
             ]
         },
