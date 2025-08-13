@@ -5,11 +5,11 @@
         "packageName": "Provar Manager",
         "packageId": "0334L000000Tte2QAC",
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
-        "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
+        "description": "Centralized quality hub for reporting and smart integrations for all things Salesforce.",
         "status": "Released",
         "versionNumber": "3.16.0",
         "versionId" : "04tP3000001O09ZIAS",
-        "releaseDate": "2025-08-11",
+        "releaseDate": "2025-08-13",
         "releaseNotes": [
               "New Release Notifications: A new release notification modal now informs users of new capabilities, fixes, and updates when a release is available.",
               "New Plugin! Provar Manager - Gearset Plugin: Trigger, cancel, and monitor Gearset Jobs from Provar Manager, link CI Jobs to Test Plan Schedules, and sync Gearset job history with Provar Manager.",
