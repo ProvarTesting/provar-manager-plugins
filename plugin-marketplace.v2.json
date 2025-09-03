@@ -89,13 +89,14 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/devops_center.png",
             "description": "Embed manual and automated testing into your release pipeline.",
             "status": "Released",
-            "versionNumber": "0.5.0",
-            "versionId": "04tP3000001JnR3IAK",
+            "versionNumber": "0.5.1",
+            "versionId": "04tP3000001QVVpIAO",
             "category": "DevOps",
             "releaseDate": "2025-07-09",
             "releaseNotes": [
                 "DevOps engineers can sync test cases from Provar Manager to DevOps Testing and triggers tests to run in the pipeline.",
-                "Fixed dependencies w.r.t Salesforce DevOps Testing App"
+                "Fixed dependencies w.r.t Salesforce DevOps Testing App.",
+                "Updated Default Java Version for Grid Settings to 21."
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/1KhjUVjlpPM-l3Dj7dukP8qGdkz46L577/view",
