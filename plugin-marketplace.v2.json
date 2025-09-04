@@ -94,8 +94,8 @@
             "category": "DevOps",
             "releaseDate": "2025-07-09",
             "releaseNotes": [
-                "DevOps engineers can sync test cases from Provar Manager to DevOps Testing and triggers tests to run in the pipeline.",
-                "Fixed dependencies w.r.t Salesforce DevOps Testing App.",
+                "Users can sync test cases from Provar Manager to DevOps Testing and trigger tests to run in their DevOps Center pipelines.",
+                "Fixed dependencies for Salesforce DevOps Testing App to sync Provar Test Provider.",
                 "Updated Default Java Version for Grid Settings to 21."
             ],
             "releaseNotesUrl": "",
