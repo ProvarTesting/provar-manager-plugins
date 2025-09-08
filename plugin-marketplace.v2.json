@@ -277,20 +277,22 @@
             "packageName": "Provar Automation",
             "packageId": "provar_automation",
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_automation.png",
-            "description": "Provar Automation is an end-to-end test automation solution designed especially for Salesforce.",
+            "description": "Provar Automation is an end-to-end test automation solution built for Salesforce.",
             "status": "Released",
-            "versionNumber": "2.16.1",
+            "versionNumber": "2.17.1",
             "category": "Testing",
-            "releaseDate": "2025-05-09",
+            "releaseDate": "2025-09-05",
             "releaseNotes": [
-                "Added support for Post Lead Convert screen",
-                "Enhanced Salesforce element identifier",
-                "Assert Layout now supports long record type names",
-                "Layout extraction now works with special characters",
-                "Excel Write step now writes immediately after the header",
-                "Improved Java 21 compatibility and fixed intermittent execution issues"
+                "Winter 26 Compatibility",
+                "CPQ v258 Winter 26 compatibility",
+                "Edge Chromium as Authoring Browser",
+                "Edge Options support for automation execution",
+                "Edge Driver auto-detect & auto-download (with manual override)",
+                "Chrome 137 extension policy update (one-time install from Web Store)",
+                "System environment variable support for connections",
+                "Security improvements with Eclipse & dependency upgrades (CVE fixes)"
             ],
-            "releaseNotesUrl": "https://documentation.provar.com/documentation/summer-25-release-1/",
+            "releaseNotesUrl": "https://documentation.provar.com/documentation/v2-winter-26-release-1/",
             "usageGuideUrl": "https://www.provartesting.com/documentation/",
             "files": [
                 {
@@ -310,6 +312,24 @@
                     "fileURL": "https://download.provartesting.com/latest/Provar_ANT_latest.zip"
                 }
             ]
+        },
+        {
+            "pluginType": "External",
+            "packageName": "ProvarDX",
+            "packageId": "provardx",
+            "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_automation.png",
+            "description": "ProvarDX provides the capability to extend your Salesforce CLI to run Provar test cases and simplifies scratch Org testing.",
+            "status": "Released",
+            "versionNumber": "1.4.7",
+            "category": "Testing",
+            "releaseDate": "2024-12-04",
+            "releaseNotes": [
+                "Provar Manager commands added to connect, display, open to Provar Manager Orgs.",
+                "Provar Manager commands added to retrieve, run, and report on test cases in Provar Manager.",
+                "Provar Manager commands added to upload code coverage and code quality reports directly to Provar Manager."
+            ],
+            "releaseNotesUrl": "https://www.npmjs.com/package/@provartesting/provardx-cli",
+            "usageGuideUrl": "https://documentation.provar.com/documentation/v2/provardx/provardx-commands/"
         },
         {
             "pluginType": "External",
