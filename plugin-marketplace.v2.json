@@ -139,14 +139,15 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/gearset.svg",
             "description": "Link Test Plans and Gearset CI Jobs to enable automated CI/CD with test automation embedded. Trigger and manage Gearset jobs from Provar Manager to streamline releases, increase test coverage, and improve delivery quality without leaving Salesforce.",
             "status": "Released",
-            "versionNumber": "0.3.3",
-            "versionId": "04tP3000001OFa1IAG",
+            "versionNumber": "0.4.0",
+            "versionId": "04tP3000001RTRxIAO",
             "category": "DevOps",
-            "releaseDate": "2025-08-07",
+            "releaseDate": "2025-09-12",
             "releaseNotes": [
                 "Trigger, Cancel, and Monitor Gearset Jobs from Provar Manager.",
                 "Link Gearset CI Jobs to Provar Test Plan Schedules for a fully automated DevOps Pipeline.",
-                "Gearset Job syncing for keeping Gearset CI Job history and Provar Manager job histories in sync."
+                "Gearset Job syncing for keeping Gearset CI Job history and Provar Manager job histories in sync.",
+                "Enhanced security for all SOQL/DML actions has been added."
             ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/YTgwY2RlYTM2YzgzNDlhZGI0ZDFhMDZmYzc0MDJmZjg",
             "usageGuideUrl": "https://provartesting.atlassian.net/wiki/external/NTFkOWJhNWQ2ZTAyNDYwZDhhMzcxYjg1ZTEzODQ2ZWI",
