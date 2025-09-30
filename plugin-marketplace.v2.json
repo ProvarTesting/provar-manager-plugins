@@ -5,18 +5,25 @@
         "packageName": "Provar Manager",
         "packageId": "0334L000000Tte2QAC",
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
-        "description": "A user-friendly, sophisticated test management solution designed to manage your full end-to-end testing life cycle.",
+        "description": "Centralized quality hub for reporting and smart integrations for all things Salesforce.",
         "status": "Released",
-        "versionNumber": "3.15.0",
-        "versionId" : "04tP3000001NRF3IAO",
-        "releaseDate": "2025-08-11",
+        "versionNumber": "3.17.0",
+        "versionId" : "04tP3000001PXt3IAG",
+        "releaseDate": "2025-08-26",
         "releaseNotes": [
-              "New Release Notifications: A new release notification modal now informs users of new capabilities, fixes, and updates when a release is available.",
-              "New Plugin! Provar Manager - Gearset Plugin: Trigger, cancel, and monitor Gearset Jobs from Provar Manager, link CI Jobs to Test Plan Schedules, and sync Gearset job history with Provar Manager.",
-              "Jira Plugin Enhancements & Fixes: Added one-shot Jira project import, job completion notifications, and initial phase for bi-directional sync from Provar Manager to Jira, plus various bug fixes.",
-              "Improved Email Deliverability: Enhanced Provar Manager email spam scores to improve inbox delivery and fixed issues with missing images and attachments."
-        ],
-        "releaseNotesUrl": "",
+              "Test Case Generation 2.0: Available in custom Provar Test Management tab with multi-format outputs (Text, Markdown, JSON, Gherkin, XML, Apex, Java), structured parsing, and selective save.",
+              "Batch Generation: Supports creating 1–10 test cases at a time for faster coverage.",
+              "Improved Prompting & Grounding: Enhanced system prompts with stronger context for reliable, consistent outputs.",
+              "Issue-Aware Generation: Auto-populates linked Issue, recommended field set, and default Intent name.",
+              "Scenario Quality Assistant: Provides strength indicators and AI 'Improve Scenario' workflow for refining scenarios.",
+              "Test Intent Capture: Records natural language description, intent name, persona, context objects, and issue.",
+              "Test Output Capture: Stores generated test cases for later reference and tracking.",
+              "Safer Downloads: Unified payload service, .feature conversion for Gherkin, fallback viewer, and improved file naming.",
+              "Lookup & Usability: Programmatic Issue preselection, consistent display labels, improved toasts and status messages.",
+              "Reliability & Bug Fixes: Fixed script error on download, removed phantom default steps, improved empty/None test data handling, and strengthened heuristics against repetition/padding.",
+              "Shield Compatibility: Resolved error when installing Provar Manager on Shield Encrypted Orgs."
+            ],
+        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MjgzM2MwYTVhODI4NGIwY2FiM2M4NWQ3NDdiYmNlOTg",
         "usageGuideUrl": "https://drive.google.com/file/d/1ktXUCjJEkNF4YBNfij-82ydAtJqzeJYw/view",
         "securityReviewPassed": true
     },
@@ -39,10 +46,16 @@
                 "Started initial phase of bi-directional sync from Provar Manager to JIRA",
                 "Delivered various bug fixes"
             ],
-            "releaseNotesUrl": "",
+            "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MjRmYjc5MDQyZmQ5NGYyZWJlYTE3NDc4OTkzNzMzZDc",
             "usageGuideUrl": "https://drive.google.com/file/d/11lL9Zd7cWnziQ1FzQ8HhTen-AubRLGrb/view",
             "securityReviewPassed": true,
-            "dependencies": []
+            "dependencies": [
+                {
+                    "packageName": "Provar Manager",
+                    "versionNumber": "3.15.0.9",
+                    "versionId" : "04tP3000001NRF3IAO"
+                }
+            ]
         },
         {
             "pluginType": "AppExchange",
@@ -77,13 +90,14 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/devops_center.png",
             "description": "Embed manual and automated testing into your release pipeline.",
             "status": "Released",
-            "versionNumber": "0.5.0",
-            "versionId": "04tP3000001JnR3IAK",
+            "versionNumber": "0.5.1",
+            "versionId": "04tP3000001QVVpIAO",
             "category": "DevOps",
             "releaseDate": "2025-07-09",
             "releaseNotes": [
-                "DevOps engineers can sync test cases from Provar Manager to DevOps Testing and triggers tests to run in the pipeline.",
-                "Fixed dependencies w.r.t Salesforce DevOps Testing App"
+                "Users can sync test cases from Provar Manager to DevOps Testing and trigger tests to run in their DevOps Center pipelines.",
+                "Fixed dependencies for Salesforce DevOps Testing App to sync Provar Test Provider.",
+                "Updated Default Java Version for Grid Settings to 21."
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/1KhjUVjlpPM-l3Dj7dukP8qGdkz46L577/view",
@@ -126,23 +140,24 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/gearset.svg",
             "description": "Link Test Plans and Gearset CI Jobs to enable automated CI/CD with test automation embedded. Trigger and manage Gearset jobs from Provar Manager to streamline releases, increase test coverage, and improve delivery quality without leaving Salesforce.",
             "status": "Released",
-            "versionNumber": "0.3.2",
-            "versionId": "04tP3000001LQADIA4",
+            "versionNumber": "0.4.0",
+            "versionId": "04tP3000001RTRxIAO",
             "category": "DevOps",
-            "releaseDate": "2025-08-07",
+            "releaseDate": "2025-09-12",
             "releaseNotes": [
                 "Trigger, Cancel, and Monitor Gearset Jobs from Provar Manager.",
                 "Link Gearset CI Jobs to Provar Test Plan Schedules for a fully automated DevOps Pipeline.",
-                "Gearset Job syncing for keeping Gearset CI Job history and Provar Manager job histories in sync."
+                "Gearset Job syncing for keeping Gearset CI Job history and Provar Manager job histories in sync.",
+                "Enhanced security for all SOQL/DML actions has been added."
             ],
-            "releaseNotesUrl": "",
+            "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/YTgwY2RlYTM2YzgzNDlhZGI0ZDFhMDZmYzc0MDJmZjg",
             "usageGuideUrl": "https://provartesting.atlassian.net/wiki/external/NTFkOWJhNWQ2ZTAyNDYwZDhhMzcxYjg1ZTEzODQ2ZWI",
             "securityReviewPassed": false,
             "dependencies": [
                 {
                     "packageName": "Provar Manager",
-                    "versionNumber": "3.15.0.4",
-                    "versionId" : "04tP3000001Jo3lIAC"
+                    "versionNumber": "3.15.0.9",
+                    "versionId" : "04tP3000001NRF3IAO"
                 }
             ]
         },
@@ -264,20 +279,22 @@
             "packageName": "Provar Automation",
             "packageId": "provar_automation",
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_automation.png",
-            "description": "Provar Automation is an end-to-end test automation solution designed especially for Salesforce.",
+            "description": "Provar Automation is an end-to-end test automation solution built for Salesforce.",
             "status": "Released",
-            "versionNumber": "2.16.1",
+            "versionNumber": "2.17.1",
             "category": "Testing",
-            "releaseDate": "2025-05-09",
+            "releaseDate": "2025-09-05",
             "releaseNotes": [
-                "Added support for Post Lead Convert screen",
-                "Enhanced Salesforce element identifier",
-                "Assert Layout now supports long record type names",
-                "Layout extraction now works with special characters",
-                "Excel Write step now writes immediately after the header",
-                "Improved Java 21 compatibility and fixed intermittent execution issues"
+                "Winter 26 Compatibility",
+                "CPQ v258 Winter 26 compatibility",
+                "Edge Chromium as Authoring Browser",
+                "Edge Options support for automation execution",
+                "Edge Driver auto-detect & auto-download (with manual override)",
+                "Chrome 137 extension policy update (one-time install from Web Store)",
+                "System environment variable support for connections",
+                "Security improvements with Eclipse & dependency upgrades (CVE fixes)"
             ],
-            "releaseNotesUrl": "https://documentation.provar.com/documentation/summer-25-release-1/",
+            "releaseNotesUrl": "https://documentation.provar.com/documentation/v2-winter-26-release-1/",
             "usageGuideUrl": "https://www.provartesting.com/documentation/",
             "files": [
                 {
@@ -297,6 +314,24 @@
                     "fileURL": "https://download.provartesting.com/latest/Provar_ANT_latest.zip"
                 }
             ]
+        },
+        {
+            "pluginType": "External",
+            "packageName": "ProvarDX",
+            "packageId": "provardx",
+            "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_automation.png",
+            "description": "ProvarDX provides the capability to extend your Salesforce CLI to run Provar test cases and simplifies scratch Org testing.",
+            "status": "Released",
+            "versionNumber": "1.4.7",
+            "category": "Testing",
+            "releaseDate": "2024-12-04",
+            "releaseNotes": [
+                "Provar Manager commands added to connect, display, open to Provar Manager Orgs.",
+                "Provar Manager commands added to retrieve, run, and report on test cases in Provar Manager.",
+                "Provar Manager commands added to upload code coverage and code quality reports directly to Provar Manager."
+            ],
+            "releaseNotesUrl": "https://www.npmjs.com/package/@provartesting/provardx-cli",
+            "usageGuideUrl": "https://documentation.provar.com/documentation/v2/provardx/provardx-commands/"
         },
         {
             "pluginType": "External",
