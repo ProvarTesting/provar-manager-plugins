@@ -1,5 +1,5 @@
 {
-    "categories": ["Release Management", "DevOps", "Code Quality", "Testing"],
+    "categories": ["Release Management", "DevOps", "Code Quality", "Testing", "Agentforce"],
     "corePackage": {
         "pluginType": "AppExchange",
         "packageName": "Provar Manager",
@@ -7,23 +7,24 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "Centralized quality hub for reporting and smart integrations for all things Salesforce.",
         "status": "Released",
-        "versionNumber": "3.17.0",
-        "versionId" : "04tP3000001PXt3IAG",
-        "releaseDate": "2025-08-26",
+        "versionNumber": "3.18.0",
+        "versionId" : "04tP3000001ULrFIAW",
+        "releaseDate": "2025-10-07",
         "releaseNotes": [
-              "Test Case Generation 2.0: Available in custom Provar Test Management tab with multi-format outputs (Text, Markdown, JSON, Gherkin, XML, Apex, Java), structured parsing, and selective save.",
-              "Batch Generation: Supports creating 1–10 test cases at a time for faster coverage.",
-              "Improved Prompting & Grounding: Enhanced system prompts with stronger context for reliable, consistent outputs.",
-              "Issue-Aware Generation: Auto-populates linked Issue, recommended field set, and default Intent name.",
-              "Scenario Quality Assistant: Provides strength indicators and AI 'Improve Scenario' workflow for refining scenarios.",
-              "Test Intent Capture: Records natural language description, intent name, persona, context objects, and issue.",
-              "Test Output Capture: Stores generated test cases for later reference and tracking.",
-              "Safer Downloads: Unified payload service, .feature conversion for Gherkin, fallback viewer, and improved file naming.",
-              "Lookup & Usability: Programmatic Issue preselection, consistent display labels, improved toasts and status messages.",
-              "Reliability & Bug Fixes: Fixed script error on download, removed phantom default steps, improved empty/None test data handling, and strengthened heuristics against repetition/padding.",
-              "Shield Compatibility: Resolved error when installing Provar Manager on Shield Encrypted Orgs."
+              "News: Provar Manager will be renamed to Provar Quality Hub in future releases. Stay tuned for more!",
+              "Test Case Generation: UI/UX updated for improved look and feel in selecting test cases, input fields, & previewing outputs.",
+              "Test Case Generation: Max number of test cases increased to 25 at once.",
+              "Test Case Generation: Enhanced prompts for Apex & Java code.",
+              "Test Case Generation: Increased token limit for scenario improvement & test case generation.",
+              "Issue-Aware Generation: Auto-populates linked Issue, recommended field set, default intent name, & scenario description.",
+              "Integrations: DevOps Testing now fully supported, with improved reporting & tighter integration.",
+              "Plugins: JIRA API endpoints were deprecated, & we have updated our plugin to match the new endpoints.",
+              "Plugins: Provar for Agentforce will be released soon on the AgentExchange & will include test schedule creation & execution assistance.",
+              "Reliability & Bug Fixes: Resolved 2 separate bugs related to loading Provar Grid videos.",
+              "Known Issue: There is still a known issue related to displaying Provar Grid videos in-app due to security updates from Salesforce. Let us know if you encounter any issues & we can provide a work-around!",
+              "Testing & SDLC: Improved overall test coverage & internal proceses for faster, more reliable release cycles."
             ],
-        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MjgzM2MwYTVhODI4NGIwY2FiM2M4NWQ3NDdiYmNlOTg",
+        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/ZDUwNzgzZTM4YmMwNDVmNjk5MjMwYmQ4MTQ3YTcxZjA",
         "usageGuideUrl": "https://drive.google.com/file/d/1ktXUCjJEkNF4YBNfij-82ydAtJqzeJYw/view",
         "securityReviewPassed": true
     },
@@ -90,28 +91,35 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/devops_center.png",
             "description": "Embed manual and automated testing into your release pipeline.",
             "status": "Released",
-            "versionNumber": "0.5.1",
-            "versionId": "04tP3000001QVVpIAO",
+            "versionNumber": "0.6.0",
+            "versionId": "04tP3000001TyxtIAC",
             "category": "DevOps",
-            "releaseDate": "2025-07-09",
+            "releaseDate": "2025-10-07",
             "releaseNotes": [
-                "Users can sync test cases from Provar Manager to DevOps Testing and trigger tests to run in their DevOps Center pipelines.",
-                "Fixed dependencies for Salesforce DevOps Testing App to sync Provar Test Provider.",
-                "Updated Default Java Version for Grid Settings to 21."
+                "Closed-loop integration with DevOps Testing is now generally available!",
+                "Provar Manager Test Plan Schedule Job results syncing now properly updates DevOps Testing Suites, Executions, Execution Groups, & Quality Gates.",
+                "Improved overall test coverage for DevOps Testing integration.",
+                "Renamed Provar Manager to Provar Quality Hub in the Test Provider & project linking process.",
+                "Updated package dependencies to latest versions of all applications for compatibility."
             ],
-            "releaseNotesUrl": "",
+            "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/YjcwMmZiODU2ZGNiNDQ2MGI0Zjk0YWM2MzM3NzEzMTc",
             "usageGuideUrl": "https://drive.google.com/file/d/1KhjUVjlpPM-l3Dj7dukP8qGdkz46L577/view",
             "securityReviewPassed": true,
             "dependencies": [
                 {
                     "packageName": "DevOps Center",
-                    "versionNumber": "10.1.0",
-                    "versionId" : "04t6g000008wTEPAA2"
+                    "versionNumber": "12.2.0",
+                    "versionId" : "04tKf0000000WPPIA2"
                 },
                 {
                     "packageName": "DevOps Testing",
-                    "versionNumber": "1.5.0",
-                    "versionId" : "04tKf0000000UFRIA2"
+                    "versionNumber": "1.6.0",
+                    "versionId" : "04tKf0000000VUbIAM"
+                },
+                {
+                  "package": "Provar Manager",
+                  "versionNumber": "3.18.0.10",
+                  "versionId" : "04tP3000001ULrFIAW"
                 }
             ]
         },
