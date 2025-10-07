@@ -39,7 +39,7 @@
             "versionNumber": "0.8.0",
             "versionId": "04tP3000001TUdFIAW",
             "category": "Release Management",
-            "releaseDate": "2025-08-12",
+            "releaseDate": "2025-09-30",
             "releaseNotes": [
                 "Patch Fix for JIRA API changes",
                 "Added one-shot JIRA project import feature",
