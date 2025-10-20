@@ -2,10 +2,10 @@
     "categories": ["Release Management", "DevOps", "Code Quality", "Testing", "Agentforce"],
     "corePackage": {
         "pluginType": "AppExchange",
-        "packageName": "Provar Manager",
+        "packageName": "Provar Quality Hub",
         "packageId": "0334L000000Tte2QAC",
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
-        "description": "Centralized quality hub for reporting and smart integrations for all things Salesforce.",
+        "description": "Centralized Reporting and Smart Integrations for Salesforce Quality.",
         "status": "Released",
         "versionNumber": "3.18.0",
         "versionId" : "04tP3000001ULrFIAW",
