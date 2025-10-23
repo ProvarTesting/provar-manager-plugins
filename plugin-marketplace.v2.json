@@ -34,7 +34,7 @@
             "packageName": "Jira Plugin",
             "packageId": "0334L000000DAI8QAO",
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/jira.png",
-            "description": "Connect to your Jira org, import projects and issues into Provar Manager, relate test cases to issues, and export defects as bugs back into Jira.",
+            "description": "Connect to your Jira org, import projects and issues into Provar Quality Hub, relate test cases to issues, and export defects as bugs back into Jira.",
             "status": "Released",
             "versionNumber": "0.8.0",
             "versionId": "04tP3000001TUdFIAW",
@@ -44,7 +44,7 @@
                 "Patch Fix for JIRA API changes",
                 "Added one-shot JIRA project import feature",
                 "Implemented Import job completion notifications",
-                "Started initial phase of bi-directional sync from Provar Manager to JIRA",
+                "Started initial phase of bi-directional sync from Provar Quality Hub to JIRA",
                 "Delivered various bug fixes"
             ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MjRmYjc5MDQyZmQ5NGYyZWJlYTE3NDc4OTkzNzMzZDc",
@@ -52,7 +52,7 @@
             "securityReviewPassed": true,
             "dependencies": [
                 {
-                    "packageName": "Provar Manager",
+                "packageName": "Provar Quality Hub",
                     "versionNumber": "3.15.0.9",
                     "versionId" : "04tP3000001NRF3IAO"
                 }
@@ -97,9 +97,9 @@
             "releaseDate": "2025-10-07",
             "releaseNotes": [
                 "Closed-loop integration with DevOps Testing is now generally available!",
-                "Provar Manager Test Plan Schedule Job results syncing now properly updates DevOps Testing Suites, Executions, Execution Groups, & Quality Gates.",
+                "Provar Quality Hub Test Plan Schedule Job results syncing now properly updates DevOps Testing Suites, Executions, Execution Groups, & Quality Gates.",
                 "Improved overall test coverage for DevOps Testing integration.",
-                "Renamed Provar Manager to Provar Quality Hub in the Test Provider & project linking process.",
+                "Renamed Provar Quality Hub to Provar Quality Hub in the Test Provider & project linking process.",
                 "Updated package dependencies to latest versions of all applications for compatibility."
             ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/YjcwMmZiODU2ZGNiNDQ2MGI0Zjk0YWM2MzM3NzEzMTc",
@@ -117,7 +117,7 @@
                     "versionId" : "04tKf0000000VUbIAM"
                 },
                 {
-                  "package": "Provar Manager",
+                  "package": "Provar Quality Hub",
                   "versionNumber": "3.18.0.10",
                   "versionId" : "04tP3000001ULrFIAW"
                 }
@@ -135,7 +135,7 @@
             "category": "Testing",
             "releaseDate": "2024-11-20",
             "releaseNotes": [
-                "Provar Manager users can leverage Agentforce to trigger the execution of tests (using test plan schedules)."
+                "Provar Quality Hub users can leverage Agentforce to trigger the execution of tests (using test plan schedules)."
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/1n-XV2JjvD4A7ydAuN3PBB8muNGGrsR_O/view",
@@ -146,16 +146,16 @@
             "packageName": "Gearset Plugin",
             "packageId": "033P3000000524P",
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/gearset.svg",
-            "description": "Link Test Plans and Gearset CI Jobs to enable automated CI/CD with test automation embedded. Trigger and manage Gearset jobs from Provar Manager to streamline releases, increase test coverage, and improve delivery quality without leaving Salesforce.",
+            "description": "Link Test Plans and Gearset CI Jobs to enable automated CI/CD with test automation embedded. Trigger and manage Gearset jobs from Provar Quality Hub to streamline releases, increase test coverage, and improve delivery quality without leaving Salesforce.",
             "status": "Released",
             "versionNumber": "0.4.0",
             "versionId": "04tP3000001RTRxIAO",
             "category": "DevOps",
             "releaseDate": "2025-09-12",
             "releaseNotes": [
-                "Trigger, Cancel, and Monitor Gearset Jobs from Provar Manager.",
+                "Trigger, Cancel, and Monitor Gearset Jobs from Provar Quality Hub.",
                 "Link Gearset CI Jobs to Provar Test Plan Schedules for a fully automated DevOps Pipeline.",
-                "Gearset Job syncing for keeping Gearset CI Job history and Provar Manager job histories in sync.",
+                "Gearset Job syncing for keeping Gearset CI Job history and Provar Quality Hub job histories in sync.",
                 "Enhanced security for all SOQL/DML actions has been added."
             ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/YTgwY2RlYTM2YzgzNDlhZGI0ZDFhMDZmYzc0MDJmZjg",
@@ -163,7 +163,7 @@
             "securityReviewPassed": false,
             "dependencies": [
                 {
-                    "packageName": "Provar Manager",
+                    "packageName": "Provar Quality Hub",
                     "versionNumber": "3.15.0.9",
                     "versionId" : "04tP3000001NRF3IAO"
                 }
@@ -226,7 +226,7 @@
             "packageName": "QualityClouds Plugin",
             "packageId": "0334L000000935aQAA",
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/qualityclouds.png",
-            "description": "Connect to QualityClouds and retrieve code scans so they can be analysed in Provar Manager.",
+        "description": "Connect to QualityClouds and retrieve code scans so they can be analysed in Provar Quality Hub.",
             "status": "Beta",
             "versionNumber": "0.2.0",
             "versionId": "04tP3000000MeEvIAK",
@@ -245,7 +245,7 @@
             "packageName": "Clayton Plugin",
             "packageId": "0334L000000935pQAA",
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/clayton.jpg",
-            "description": "Connect to Clayton and retrieve code scans so they can be analysed in Provar Manager.",
+            "description": "Connect to Clayton and retrieve code scans so they can be analysed in Provar Quality Hub.",
             "status": "Beta",
             "versionNumber": "0.2.0",
             "versionId": "04tP3000000Zf1tIAC",
@@ -264,14 +264,14 @@
             "packageName": "Azure DevOps Plugin",
             "packageId": "0334L00000093B5QAI",
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/azure_devops.png",
-            "description": "Connect to your Azure DevOps org, import projects and work items into Provar Manager, relate test cases to work items, and export defects as bugs back into Azure DevOps.",
+            "description": "Connect to your Azure DevOps org, import projects and work items into Provar Quality Hub, relate test cases to work items, and export defects as bugs back into Azure DevOps.",
             "status": "Released",
             "versionNumber": "0.2.2",
             "versionId": "04tP3000001CzTlIAK",
             "category": "Release Management",
             "releaseDate": "2025-05-09",
             "releaseNotes": [
-                "Connect Provar Manager to Azure DevOps.",
+                "Connect Provar Quality Hub to Azure DevOps.",
                 "Import projects with their work item types and work item relation types.",
                 "Import work items of any type.",
                 "Send bugs to Azure DevOps from the defect record and have it automatically linked to the related work item.",
@@ -334,9 +334,9 @@
             "category": "Testing",
             "releaseDate": "2024-12-04",
             "releaseNotes": [
-                "Provar Manager commands added to connect, display, open to Provar Manager Orgs.",
-                "Provar Manager commands added to retrieve, run, and report on test cases in Provar Manager.",
-                "Provar Manager commands added to upload code coverage and code quality reports directly to Provar Manager."
+                "Provar Quality Hub commands added to connect, display, open to Provar Quality Hub Orgs.",
+                "Provar Quality Hub commands added to retrieve, run, and report on test cases in Provar Quality Hub.",
+                "Provar Quality Hub commands added to upload code coverage and code quality reports directly to Provar Quality Hub."
             ],
             "releaseNotesUrl": "https://www.npmjs.com/package/@provartesting/provardx-cli",
             "usageGuideUrl": "https://documentation.provar.com/documentation/v2/provardx/provardx-commands/"
