@@ -99,7 +99,7 @@
                 "Closed-loop integration with DevOps Testing is now generally available!",
                 "Provar Quality Hub Test Plan Schedule Job results syncing now properly updates DevOps Testing Suites, Executions, Execution Groups, & Quality Gates.",
                 "Improved overall test coverage for DevOps Testing integration.",
-                "Renamed Provar Quality Hub to Provar Quality Hub in the Test Provider & project linking process.",
+                "Renamed Provar Manager to Provar Quality Hub in the Test Provider & project linking process.",
                 "Updated package dependencies to latest versions of all applications for compatibility."
             ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/YjcwMmZiODU2ZGNiNDQ2MGI0Zjk0YWM2MzM3NzEzMTc",
@@ -182,7 +182,7 @@
             "releaseDate": "2025-06-05",
             "releaseNotes": [
                 "Relate test cases to branches using Branch Test Case records.",
-                "Map PM system records to Flosum org records to show test executions on branch records.",
+                "Map Provar Quality Hub system records to Flosum org records to show test executions on branch records.",
                 "Fixed vulnerabilities from code scan tools."
             ],
             "releaseNotesUrl": "",
