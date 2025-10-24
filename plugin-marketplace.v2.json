@@ -117,9 +117,9 @@
                     "versionId" : "04tKf0000000VUbIAM"
                 },
                 {
-                  "package": "Provar Quality Hub",
-                  "versionNumber": "3.18.0.10",
-                  "versionId" : "04tP3000001ULrFIAW"
+                    "packageName": "Provar Quality Hub",
+                    "versionNumber": "3.18.0.10",
+                    "versionId" : "04tP3000001ULrFIAW"
                 }
             ]
         },
