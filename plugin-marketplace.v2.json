@@ -156,11 +156,11 @@
                 "Trigger, Cancel, and Monitor Gearset Jobs from Provar Quality Hub.",
                 "Link Gearset CI Jobs to Provar Test Plan Schedules for a fully automated DevOps Pipeline.",
                 "Gearset Job syncing for keeping Gearset CI Job history and Provar Quality Hub job histories in sync.",
-                "Enhanced security for all SOQL/DML actions has been added."
-            ],
+                "Enhanced security for all SOQL/DML actions has been added.",
+                "Now publicly available on the AppExchange!"           ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/YTgwY2RlYTM2YzgzNDlhZGI0ZDFhMDZmYzc0MDJmZjg",
             "usageGuideUrl": "https://provartesting.atlassian.net/wiki/external/NTFkOWJhNWQ2ZTAyNDYwZDhhMzcxYjg1ZTEzODQ2ZWI",
-            "securityReviewPassed": false,
+            "securityReviewPassed": true,
             "dependencies": [
                 {
                     "packageName": "Provar Quality Hub",
