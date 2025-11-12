@@ -7,24 +7,18 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "Centralized Reporting and Smart Integrations for Salesforce Quality.",
         "status": "Released",
-        "versionNumber": "3.18.0",
-        "versionId" : "04tP3000001ULrFIAW",
-        "releaseDate": "2025-10-07",
+        "versionNumber": "3.22.0",
+        "versionId" : "04tP3000001YQifIAG",
+        "releaseDate": "2025-11-12",
         "releaseNotes": [
-              "News: Provar Manager will be renamed to Provar Quality Hub in future releases. Stay tuned for more!",
-              "Test Case Generation: UI/UX updated for improved look and feel in selecting test cases, input fields, & previewing outputs.",
-              "Test Case Generation: Max number of test cases increased to 25 at once.",
-              "Test Case Generation: Enhanced prompts for Apex & Java code.",
-              "Test Case Generation: Increased token limit for scenario improvement & test case generation.",
-              "Issue-Aware Generation: Auto-populates linked Issue, recommended field set, default intent name, & scenario description.",
-              "Integrations: DevOps Testing now fully supported, with improved reporting & tighter integration.",
-              "Plugins: JIRA API endpoints were deprecated, & we have updated our plugin to match the new endpoints.",
-              "Plugins: Provar for Agentforce will be released soon on the AgentExchange & will include test schedule creation & execution assistance.",
-              "Reliability & Bug Fixes: Resolved 2 separate bugs related to loading Provar Grid videos.",
-              "Known Issue: There is still a known issue related to displaying Provar Grid videos in-app due to security updates from Salesforce. Let us know if you encounter any issues & we can provide a work-around!",
-              "Testing & SDLC: Improved overall test coverage & internal proceses for faster, more reliable release cycles."
+              "Provar Manager is now Provar Quality Hub — all user-facing names, tabs, and messages updated accordingly.",
+              "New Quality Hub Dashboard with two views: Executive (available now) and QA Coverage (coming soon).",
+              "Executive Dashboard includes 13 metrics (e.g., automation coverage, ROI, defect escape rate) and configurable 4-tier KPI thresholds.",
+              "Quality Hub Configuration enables Time/Cost Model setup, KPI management, and data caching for faster dashboard loads.",
+              "Enhanced Risk & People tabs now contribute to Risk Avoidance and Team Capacity metrics.",
+              "General enhancements: defect tracking improvements, persistent filters, standardized dashboards, new layouts for key objects, and updates supporting Jira 0.9.0 and automation coverage tracking."
             ],
-        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/ZDUwNzgzZTM4YmMwNDVmNjk5MjMwYmQ4MTQ3YTcxZjA",
+        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/NjhjM2E0OGI4ZmZlNGQ0ZmEyZjk1YTNmYzNhMzIwYjg",
         "usageGuideUrl": "https://drive.google.com/file/d/1ktXUCjJEkNF4YBNfij-82ydAtJqzeJYw/view",
         "securityReviewPassed": true
     },
@@ -36,27 +30,24 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/jira.png",
             "description": "Connect to your Jira org, import projects and issues into Provar Quality Hub, relate test cases to issues, and export defects as bugs back into Jira.",
             "status": "Released",
-            "versionNumber": "0.8.0",
-            "versionId": "04tP3000001TUdFIAW",
+            "versionNumber": "0.9.0",
+            "versionId": "04tP3000001YRA5IAO",
             "category": "Release Management",
-            "releaseDate": "2025-09-30",
+            "releaseDate": "2025-11-12",
             "releaseNotes": [
-                "Patch Fix for JIRA API changes",
-                "Added one-shot JIRA project import feature",
-                "Implemented Import job completion notifications",
-                "Started initial phase of bi-directional sync from Provar Quality Hub to JIRA",
-                "Delivered various bug fixes"
+                "Refreshed labels, messages, and formatting across integration screens for better clarity.",
+                "Added a Test Connection button to verify your JIRA setup before saving.",
+                "Removed the Every Hour sync option to improve performance and reduce load.",
+                "Enhanced JIRA Field Mapping — no duplicate mappings, and multi-project fields now show project names.",
+                "Improved Import Issues flow: newest issues appear first, per-project imports supported, and releases import automatically.",
+                "Added External ID for Assignees and External Created Date for accurate syncing and history tracking.",
+                "Cleaned up Description and Acceptance Criteria formatting, ensuring proper display without extra HTML or markdown.",
+                "Improved synchronization for Assignee, Priority, Status, Description, and Acceptance Criteria, along with general stability and UI improvements."
             ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MjRmYjc5MDQyZmQ5NGYyZWJlYTE3NDc4OTkzNzMzZDc",
             "usageGuideUrl": "https://drive.google.com/file/d/11lL9Zd7cWnziQ1FzQ8HhTen-AubRLGrb/view",
             "securityReviewPassed": true,
-            "dependencies": [
-                {
-                "packageName": "Provar Quality Hub",
-                    "versionNumber": "3.15.0.9",
-                    "versionId" : "04tP3000001NRF3IAO"
-                }
-            ]
+            "dependencies": []
         },
         {
             "pluginType": "AppExchange",
@@ -65,22 +56,23 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/devops_center.png",
             "description": "Embed manual and automated testing into your release pipeline.",
             "status": "Released",
-            "versionNumber": "0.3.1",
-            "versionId": "04tP30000019eqTIAQ",
+            "versionNumber": "0.6.0",
+            "versionId": "04tP3000001XxQXIA0",
             "category": "DevOps",
-            "releaseDate": "2025-04-15",
+            "releaseDate": "2025-11-12",
             "releaseNotes": [
+                "This release updates references to the application name from Provar Manager to Provar Quality Hub.",
                 "DevOps engineers can leverage 2 new Quality Pipelines (i.e. flow templates) to automatically trigger the execution in Provar Grid of Provar test cases directly or indirectly related to a work item when its status changes to 'In Review'",
                 "Fixed package installation issue."
             ],
-            "releaseNotesUrl": "",
+            "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/YjJjYzc2NWY5ZDk1NDVlN2FhN2U3OGNjZGUxNjAzMjA",
             "usageGuideUrl": "https://drive.google.com/file/d/15ttbVofteYTbn4J-Xig6qrRFLsrbOtnU/view",
             "securityReviewPassed": true,
             "dependencies": [
                 {
                     "packageName": "DevOps Center",
-                    "versionNumber": "10.1.0",
-                    "versionId" : "04t6g000008wTEPAA2"
+                    "versionNumber": "12.2.0",
+                    "versionId" : "04tKf0000000WPPIA2"
                 }
             ]
         },
@@ -91,11 +83,12 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/devops_center.png",
             "description": "Embed manual and automated testing into your release pipeline.",
             "status": "Released",
-            "versionNumber": "0.6.0",
-            "versionId": "04tP3000001TyxtIAC",
+            "versionNumber": "0.7.0",
+            "versionId": "04tP3000001XxLhIAK",
             "category": "DevOps",
-            "releaseDate": "2025-10-07",
+            "releaseDate": "2025-11-12",
             "releaseNotes": [
+                "This release updates references to the application name from Provar Manager to Provar Quality Hub.",
                 "Closed-loop integration with DevOps Testing is now generally available!",
                 "Provar Quality Hub Test Plan Schedule Job results syncing now properly updates DevOps Testing Suites, Executions, Execution Groups, & Quality Gates.",
                 "Improved overall test coverage for DevOps Testing integration.",
@@ -115,11 +108,6 @@
                     "packageName": "DevOps Testing",
                     "versionNumber": "1.6.0",
                     "versionId" : "04tKf0000000VUbIAM"
-                },
-                {
-                    "packageName": "Provar Quality Hub",
-                    "versionNumber": "3.18.0.10",
-                    "versionId" : "04tP3000001ULrFIAW"
                 }
             ]
         },
@@ -130,16 +118,18 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/agentforce.png",
             "description": "Run tests using Salesforce Agentforce.",
             "status": "Released",
-            "versionNumber": "0.1.0",
-            "versionId": "04tP3000000t81lIAA",
+            "versionNumber": "0.2.0",
+            "versionId": "04tP3000001YTQPIA4",
             "category": "Testing",
-            "releaseDate": "2024-11-20",
+            "releaseDate": "2025-11-12",
             "releaseNotes": [
+                "This release updates references to the application name from Provar Manager to Provar Quality Hub.",
                 "Provar Quality Hub users can leverage Agentforce to trigger the execution of tests (using test plan schedules)."
             ],
             "releaseNotesUrl": "",
             "usageGuideUrl": "https://drive.google.com/file/d/1n-XV2JjvD4A7ydAuN3PBB8muNGGrsR_O/view",
-            "securityReviewPassed": true
+            "securityReviewPassed": true,
+            "dependencies": []
         },  
         {
             "pluginType": "AppExchange",
@@ -148,26 +138,22 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/gearset.svg",
             "description": "Link Test Plans and Gearset CI Jobs to enable automated CI/CD with test automation embedded. Trigger and manage Gearset jobs from Provar Quality Hub to streamline releases, increase test coverage, and improve delivery quality without leaving Salesforce.",
             "status": "Released",
-            "versionNumber": "0.4.0",
-            "versionId": "04tP3000001RTRxIAO",
+            "versionNumber": "0.5.0",
+            "versionId": "04tP3000001YD8jIAG",
             "category": "DevOps",
-            "releaseDate": "2025-09-12",
+            "releaseDate": "2025-11-12",
             "releaseNotes": [
+                "This release updates references to the application name from Provar Manager to Provar Quality Hub.",
                 "Trigger, Cancel, and Monitor Gearset Jobs from Provar Quality Hub.",
                 "Link Gearset CI Jobs to Provar Test Plan Schedules for a fully automated DevOps Pipeline.",
                 "Gearset Job syncing for keeping Gearset CI Job history and Provar Quality Hub job histories in sync.",
                 "Enhanced security for all SOQL/DML actions has been added.",
-                "Now publicly available on the AppExchange!"           ],
+                "Now publicly available on the AppExchange!"
+            ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/YTgwY2RlYTM2YzgzNDlhZGI0ZDFhMDZmYzc0MDJmZjg",
             "usageGuideUrl": "https://provartesting.atlassian.net/wiki/external/NTFkOWJhNWQ2ZTAyNDYwZDhhMzcxYjg1ZTEzODQ2ZWI",
             "securityReviewPassed": true,
-            "dependencies": [
-                {
-                    "packageName": "Provar Quality Hub",
-                    "versionNumber": "3.15.0.9",
-                    "versionId" : "04tP3000001NRF3IAO"
-                }
-            ]
+            "dependencies": []
         },
         {
             "pluginType": "AppExchange",
@@ -176,16 +162,17 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/flosum.png",
             "description": "Relate test cases to branches and see their execution status per environment from within the branch itself.",
             "status": "Released",
-            "versionNumber": "0.3.0",
-            "versionId": "04tP3000001FyphIAC",
+            "versionNumber": "0.4.0",
+            "versionId": "04tP3000001XxITIA0",
             "category": "DevOps",
-            "releaseDate": "2025-06-05",
+            "releaseDate": "2025-11-12",
             "releaseNotes": [
+                "This release updates references to the application name from Provar Manager to Provar Quality Hub.",
                 "Relate test cases to branches using Branch Test Case records.",
                 "Map Provar Quality Hub system records to Flosum org records to show test executions on branch records.",
                 "Fixed vulnerabilities from code scan tools."
             ],
-            "releaseNotesUrl": "",
+            "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/YTkwN2FkMjc3ODNiNDc3NTk5MTI3MjU4OWI0N2EzOWU",
             "usageGuideUrl": "https://drive.google.com/file/d/1tS-3UP7v2K1jmbwVFsPKVIhCQ4uX3aN6/view",
             "securityReviewPassed": true,
             "dependencies": [
@@ -203,14 +190,15 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/copado.png",
             "description": "Relate test cases to user stories and see their execution status per environment from within the user story itself.",
             "status": "Beta",
-            "versionNumber": "0.2.0",
-            "versionId": "04tP3000000RnuHIAS",
+            "versionNumber": "0.3.0",
+            "versionId": "04tP3000001YDFBIA4",
             "category": "DevOps",
-            "releaseDate": "2024-03-28",
+            "releaseDate": "2025-11-12",
             "releaseNotes": [
+                "This release updates references to the application name from Provar Manager to Provar Quality Hub.",
                 "Include flow templates to run test cases (via Apex or Provar Grid) related to user stories or their tracked metadata, when their status changes to 'Ready for testing'."
             ],
-            "releaseNotesUrl": "",
+            "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MDE1OTQzY2Q3MTc2NDlkMWE4NmRiMjJjMDI1OGFkNjQ",
             "usageGuideUrl": "https://drive.google.com/file/d/1T3ppoJbSJ4A2yUnj-A4vRxVr9OVBP1Kr/view",
             "securityReviewPassed": false,
             "dependencies": [
@@ -228,14 +216,15 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/qualityclouds.png",
         "description": "Connect to QualityClouds and retrieve code scans so they can be analysed in Provar Quality Hub.",
             "status": "Beta",
-            "versionNumber": "0.2.0",
-            "versionId": "04tP3000000MeEvIAK",
+            "versionNumber": "0.3.0",
+            "versionId": "04tP3000001YDGnIAO",
             "category": "Code Quality",
-            "releaseDate": "2024-02-14",
+            "releaseDate": "2025-11-12",
             "releaseNotes": [
+                "This release updates references to the application name from Provar Manager to Provar Quality Hub.",
                 "Fix callout to QualityClouds API to retrieve code scans."
             ],
-            "releaseNotesUrl": "",
+            "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/Yjc5MzdiODg4OGIwNDZmZWFjMmVmNjU1NDI5MmQyZDM",
             "usageGuideUrl": "https://drive.google.com/file/d/1VkmHYk_DvVLhgZNznKfnnFj80nz_sxxq/view",
             "securityReviewPassed": false,
             "dependencies": []
@@ -247,14 +236,15 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/clayton.jpg",
             "description": "Connect to Clayton and retrieve code scans so they can be analysed in Provar Quality Hub.",
             "status": "Beta",
-            "versionNumber": "0.2.0",
-            "versionId": "04tP3000000Zf1tIAC",
+            "versionNumber": "0.3.0",
+            "versionId": "04tP3000001YSZBIA4",
             "category": "Code Quality",
-            "releaseDate": "2024-06-04",
+            "releaseDate": "2025-11-12",
             "releaseNotes": [
+                "This release updates references to the application name from Provar Manager to Provar Quality Hub.",
                 "Fix bug with handling of branch names."
             ],
-            "releaseNotesUrl": "",
+            "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MTZlNTFkNGFhMWFjNDg5MzhlYTZhZDBkYzkzMmM5OGU",
             "usageGuideUrl": "https://drive.google.com/file/d/1BdEu31d2fsOse3_uNE2s5Qb44wxioxQo/view",
             "securityReviewPassed": false,
             "dependencies": []
@@ -266,18 +256,19 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/azure_devops.png",
             "description": "Connect to your Azure DevOps org, import projects and work items into Provar Quality Hub, relate test cases to work items, and export defects as bugs back into Azure DevOps.",
             "status": "Released",
-            "versionNumber": "0.2.2",
-            "versionId": "04tP3000001CzTlIAK",
+            "versionNumber": "0.3.0",
+            "versionId": "04tP3000001YDIPIA4",
             "category": "Release Management",
-            "releaseDate": "2025-05-09",
+            "releaseDate": "2025-11-12",
             "releaseNotes": [
+                "This release updates references to the application name from Provar Manager to Provar Quality Hub.",
                 "Connect Provar Quality Hub to Azure DevOps.",
                 "Import projects with their work item types and work item relation types.",
                 "Import work items of any type.",
                 "Send bugs to Azure DevOps from the defect record and have it automatically linked to the related work item.",
                 "Bug Fixes and Improved Stability"
             ],
-            "releaseNotesUrl": "",
+            "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/NTk5NTkxYWJkYjY4NGY5OWFiNDFiYmQ3YjMzMTdhZGQ",
             "usageGuideUrl": "https://drive.google.com/file/d/1yarqZK4f9AnmIwspvFx9XY2VvAB6Adgb/view",
             "securityReviewPassed": true,
             "dependencies": []
