@@ -33,11 +33,12 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/jira.png",
             "description": "Connect to your Jira org, import projects and issues into Provar Quality Hub, relate test cases to issues, and export defects as bugs back into Jira.",
             "status": "Released",
-            "versionNumber": "0.9.0",
-            "versionId": "04tP3000001YRA5IAO",
+            "versionNumber": "0.10.0",
+            "versionId": "04tP3000001btUnIAI",
             "category": "Release Management",
-            "releaseDate": "2025-11-12",
+            "releaseDate": "2025-12-12",
             "releaseNotes": [
+                "0.9.0",
                 "Refreshed labels, messages, and formatting across integration screens for better clarity.",
                 "Added a Test Connection button to verify your JIRA setup before saving.",
                 "Removed the Every Hour sync option to improve performance and reduce load.",
@@ -45,12 +46,23 @@
                 "Improved Import Issues flow: newest issues appear first, per-project imports supported, and releases import automatically.",
                 "Added External ID for Assignees and External Created Date for accurate syncing and history tracking.",
                 "Cleaned up Description and Acceptance Criteria formatting, ensuring proper display without extra HTML or markdown.",
-                "Improved synchronization for Assignee, Priority, Status, Description, and Acceptance Criteria, along with general stability and UI improvements."
+                "Improved synchronization for Assignee, Priority, Status, Description, and Acceptance Criteria, along with general stability and UI improvements.",
+                "0.10.0",
+                "Improved performance and reliability when importing projects from large Jira instances.",
+                "New pagination and Import All option make managing large project lists faster and easier.",
+                "Added loading indicators to provide clear feedback during long-running import and mapping actions.",
+                "Resolved critical issue related to loading field mappings for JIRA instances with over large data sets."            
             ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MjRmYjc5MDQyZmQ5NGYyZWJlYTE3NDc4OTkzNzMzZDc",
             "usageGuideUrl": "https://drive.google.com/file/d/11lL9Zd7cWnziQ1FzQ8HhTen-AubRLGrb/view",
             "securityReviewPassed": true,
-            "dependencies": []
+            "dependencies": [
+                {
+                    "packageName": "Provar Manager",
+                    "versionNumber": "3.22.04",
+                    "versionId": "04tP3000001YQifIAG"
+                }
+            ]
         },
         {
             "pluginType": "AppExchange",
