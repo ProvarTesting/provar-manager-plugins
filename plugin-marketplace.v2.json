@@ -52,7 +52,7 @@
                 "New pagination and Import All option make managing large project lists faster and easier.",
                 "Added loading indicators to provide clear feedback during long-running import and mapping actions.",
                 "Resolved critical issue related to loading field mappings for JIRA instances with over large data sets.",
-                "0.11.0",
+                "<h3>0.11.0<h3>",
                 "Bug Fixes and Improved Stability"   
             ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MjRmYjc5MDQyZmQ5NGYyZWJlYTE3NDc4OTkzNzMzZDc",
