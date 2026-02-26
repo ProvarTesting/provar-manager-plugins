@@ -7,23 +7,26 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "Centralized Reporting and Smart Integrations for Salesforce Quality.",
         "status": "Released",
-        "versionNumber": "3.25.0",
-        "versionId" : "04tP3000001hSdBIAU",
-        "releaseDate": "2026-01-29",
+        "versionNumber": "3.26.0",
+        "versionId" : "04tP3000001lCRlIAM",
+        "releaseDate": "2026-02-26",
         "releaseNotes": [
-              "Introduced asynchronous Intelligent Test Case Generation (Beta Phase 2), allowing users to monitor, regenerate, and download test cases from the new Generation Requests tab.",
-              "Added auto-refreshing generation status updates and full Provar Quality Validation Reports for every generated test case.",
-              "Expanded AI-driven test generation support for UI and API scenarios, including lookups (reference IDs), test data setup, and looping operations.",
-              "Significantly enhanced the validation engine to provide more meaningful quality scores and higher-fidelity test case coverage.",
-              "Standardized Test Intent and Issue handling across Standard and Provar Test Case Generation, with improved filtering and auto-populated scenario descriptions including Acceptance Criteria.",
-              "Introduced a new default Provar Quality Hub AI option, allowing users to generate test cases without providing their own OpenAI API key.",
-              "Added enhanced Azure OpenAI support, including custom hostname, deployment, API version configuration, and Test Connection validation.",
-              "Improved the Salesforce Org Browser experience with bulk importing and tracking of metadata components, including Lightning Pages and Profiles.",
-              "Enhanced branch import workflows across all supported version control systems, with bulk importing, searching, and pagination for GitHub, GitLab, Bitbucket, and Azure DevOps.",
-              "Fixed an issue where deleting or removing a Test Project resulted in a page error after completion.",
-              "Resolved an issue preventing Metadata Components from being removed from the multi-select picklist in Provar Test Case Generation."
+              "Intelligent Test Case Generation with Provar (Beta Phase 3) including combined Test Case and Page Object generation",
+              "Standalone Page Object Generation with validated storage and reusable library support",
+              "Generated Test Cases and Page Objects can now be stored as validated files",
+              "Metadata Components and context now auto-populate from scenario descriptions",
+              "Unified Standard and Provar Test Case Generation interface with streamlined metadata mapping",
+              "Automatic linking of Generated Test Cases to Issues, Test Intents, Page Objects, and Metadata Components",
+              "Enhanced Test Intent integration including direct generation from record pages",
+              "Improved UX with organized context sections and reduced cognitive load",
+              "UI Artifact retrieval from Salesforce metadata including FlexiPages, Aura, LWC, and Visualforce",
+              "Configurable Generation Request cleanup via Deletion Policy",
+              "OpenAI model upgrade to GPT-4.1 and GPT-4.1-mini",
+              "Improved Jira and Azure DevOps integration setup and syncing stability",
+              "Bug fixes including Jira long description handling and Named Credential authentication corrections",
+              "Manual layout updates required after upgrade to enable new related records and quick actions"
         ],
-        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MGYyMGJjNGVhZDIxNGU1NTg3MTUxZDQ1NGM5NDM5NGU",
+        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/OThmZjkwNTAxZjdlNDI1ZmEzOWIxMzRkYzdkNzFhYTg",
         "usageGuideUrl": "https://drive.google.com/file/d/1ktXUCjJEkNF4YBNfij-82ydAtJqzeJYw/view",
         "securityReviewPassed": true
     },
@@ -35,18 +38,15 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/jira.png",
             "description": "Connect to your Jira org, import projects and issues into Provar Quality Hub, relate test cases to issues, and export defects as bugs back into Jira.",
             "status": "Released",
-            "versionNumber": "0.11.0",
-            "versionId": "04tP3000001eVR7IAM",
+            "versionNumber": "0.12.0",
+            "versionId": "04tP3000001kxJ3IAI",
             "category": "Release Management",
-            "releaseDate": "2026-01-07",
+            "releaseDate": "2026-02-26",
             "releaseNotes": [
-                "0.10.0",
-                "Improved performance and reliability when importing projects from large Jira instances.",
-                "New pagination and Import All option make managing large project lists faster and easier.",
-                "Added loading indicators to provide clear feedback during long-running import and mapping actions.",
-                "Resolved critical issue related to loading field mappings for JIRA instances with over large data sets.",
-                "0.11.0",
-                "Bug Fixes and Improved Stability"   
+                "Resolved issues related to Jira syncing for extremely long descriptions and acceptance critiera",
+                "Fixed issues related to bi-directional sync for missing Status & Priority mappings",
+                "All 'JIRA' references changed to 'Jira' for consistency and proper casing enforcement",
+                "Enhanced Jira integration settings to include guided steps for project importing, priority & status mapping"
             ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MjRmYjc5MDQyZmQ5NGYyZWJlYTE3NDc4OTkzNzMzZDc",
             "usageGuideUrl": "https://drive.google.com/file/d/11lL9Zd7cWnziQ1FzQ8HhTen-AubRLGrb/view",
@@ -54,8 +54,8 @@
             "dependencies": [
                 {
                     "packageName": "Provar Manager",
-                    "versionNumber": "3.22.04",
-                    "versionId": "04tP3000001YQifIAG"
+                    "versionNumber": "3.26.0",
+                    "versionId": "04tP3000001lCRlIAM"
                 }
             ]
         },
@@ -266,22 +266,23 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/azure_devops.png",
             "description": "Connect to your Azure DevOps org, import projects and work items into Provar Quality Hub, relate test cases to work items, and export defects as bugs back into Azure DevOps.",
             "status": "Released",
-            "versionNumber": "0.3.0",
+            "versionNumber": "0.4.0",
             "versionId": "04tP3000001YDIPIA4",
             "category": "Release Management",
-            "releaseDate": "2025-11-12",
+            "releaseDate": "2026-02-26",
             "releaseNotes": [
-                "This release updates references to the application name from Provar Manager to Provar Quality Hub.",
-                "Connect Provar Quality Hub to Azure DevOps.",
-                "Import projects with their work item types and work item relation types.",
-                "Import work items of any type.",
-                "Send bugs to Azure DevOps from the defect record and have it automatically linked to the related work item.",
-                "Bug Fixes and Improved Stability"
+                "Enhanced Azure DevOps Integration settings to include guided steps for project importing and priority & status mapping."
             ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/NTk5NTkxYWJkYjY4NGY5OWFiNDFiYmQ3YjMzMTdhZGQ",
             "usageGuideUrl": "https://drive.google.com/file/d/1yarqZK4f9AnmIwspvFx9XY2VvAB6Adgb/view",
             "securityReviewPassed": true,
-            "dependencies": []
+            "dependencies": [
+                {
+                    "packageName": "Provar Manager",
+                    "versionNumber": "3.26.0",
+                    "versionId": "04tP3000001lCRlIAM"
+                }
+            ]
         },
         {
             "pluginType": "External",
@@ -290,20 +291,19 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_automation.png",
             "description": "Provar Automation is an end-to-end test automation solution built for Salesforce.",
             "status": "Released",
-            "versionNumber": "2.17.1",
+            "versionNumber": "2.18.3",
             "category": "Testing",
-            "releaseDate": "2025-09-05",
+            "releaseDate": "2026-01-09",
             "releaseNotes": [
-                "Winter 26 Compatibility",
-                "CPQ v258 Winter 26 compatibility",
-                "Edge Chromium as Authoring Browser",
-                "Edge Options support for automation execution",
-                "Edge Driver auto-detect & auto-download (with manual override)",
-                "Chrome 137 extension policy update (one-time install from Web Store)",
-                "System environment variable support for connections",
-                "Security improvements with Eclipse & dependency upgrades (CVE fixes)"
+                "Spring 26 Compatibility",
+                "Execution License Enforcement for CLI-Only Usage",
+                "Simplified Page Object Refactoring",
+                "Test Cycle Configuration for Provar Quality Hub Reporting",
+                "Global Password Variables Support",
+                "Automatic Edge Driver Handling",
+                "Permission Set Group Support for Extract/Assert Layout"
             ],
-            "releaseNotesUrl": "https://documentation.provar.com/documentation/v2-winter-26-release-1/",
+            "releaseNotesUrl": "https://documentation.provar.com/documentation/v2/v2-release-notes/v2-spring-26-release-1-v2-18-1/",
             "usageGuideUrl": "https://www.provartesting.com/documentation/",
             "files": [
                 {
