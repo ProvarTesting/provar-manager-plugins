@@ -7,24 +7,21 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "Centralized Reporting and Smart Integrations for Salesforce Quality.",
         "status": "Released",
-        "versionNumber": "3.26.0",
-        "versionId" : "04tP3000001lCRlIAM",
-        "releaseDate": "2026-02-26",
+        "versionNumber": "3.27.0",
+        "versionId" : "04tP3000001os4fIAA",
+        "releaseDate": "2026-03-26",
         "releaseNotes": [
-              "Intelligent Test Case Generation with Provar (Beta Phase 3) including combined Test Case and Page Object generation",
-              "Standalone Page Object Generation with validated storage and reusable library support",
-              "Generated Test Cases and Page Objects can now be stored as validated files",
-              "Metadata Components and context now auto-populate from scenario descriptions",
-              "Unified Standard and Provar Test Case Generation interface with streamlined metadata mapping",
-              "Automatic linking of Generated Test Cases to Issues, Test Intents, Page Objects, and Metadata Components",
-              "Enhanced Test Intent integration including direct generation from record pages",
-              "Improved UX with organized context sections and reduced cognitive load",
-              "UI Artifact retrieval from Salesforce metadata including FlexiPages, Aura, LWC, and Visualforce",
-              "Configurable Generation Request cleanup via Deletion Policy",
-              "OpenAI model upgrade to GPT-4.1 and GPT-4.1-mini",
-              "Improved Jira and Azure DevOps integration setup and syncing stability",
-              "Bug fixes including Jira long description handling and Named Credential authentication corrections",
-              "Manual layout updates required after upgrade to enable new related records and quick actions"
+            "Copado Test Plans Component as a plug-and-play LWC to link multiple Test Plans to Copado User Stories and Promotions without page layout changes",
+            "Copado Automated Flow Templates to automatically trigger all linked Test Plans when a User Story moves to Ready for Testing",
+            "Metadata Component Sync to automatically detect and track updates and deletions to imported metadata components from the connected org",
+            "Jira Sprint Import and Sync for release and timeline tracking within Quality Hub",
+            "Enhanced Intelligent Test Case Generation with screenshot and visual context support, multi-select capabilities, CSV export, description-based Page Object generation, and modal form locator strategies",
+            "Improved Test Artifact Validation and Reporting with hierarchy rollups, violation counts, recommendedations, and exportable reports",
+            "Improved Traceability for Test Case Generation with 6 new packaged reports and 3 new report types",
+            "Fixed issue where metadata auto-detection did not recognize components with namespace prefixes in scenario descriptions",
+            "Fixed issue where metadata auto-detection failed for custom objects when using display labels instead of API names",
+            "Fixed issue where Metadata Components were not scoped per system, preventing importing the same components across multiple connected orgs",
+            "Fixed issue where auto-detect incorrectly surfaced Apex Classes and Triggers as metadata context types"
         ],
         "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/OThmZjkwNTAxZjdlNDI1ZmEzOWIxMzRkYzdkNzFhYTg",
         "usageGuideUrl": "https://drive.google.com/file/d/1ktXUCjJEkNF4YBNfij-82ydAtJqzeJYw/view",
@@ -38,24 +35,26 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/jira.png",
             "description": "Connect to your Jira org, import projects and issues into Provar Quality Hub, relate test cases to issues, and export defects as bugs back into Jira.",
             "status": "Released",
-            "versionNumber": "0.12.0",
-            "versionId": "04tP3000001kxJ3IAI",
+            "versionNumber": "0.13.0",
+            "versionId": "04tP3000001okWvIAI",
             "category": "Release Management",
-            "releaseDate": "2026-02-26",
+            "releaseDate": "2026-03-26",
             "releaseNotes": [
-                "Resolved issues related to Jira syncing for extremely long descriptions and acceptance critiera",
-                "Fixed issues related to bi-directional sync for missing Status & Priority mappings",
-                "All 'JIRA' references changed to 'Jira' for consistency and proper casing enforcement",
-                "Enhanced Jira integration settings to include guided steps for project importing, priority & status mapping"
+                "Improved Jira sync reliability for Issues, Projects, Releases, and Sprints",
+                "Import and sync Jira Sprints into Quality Hub",
+                "Support for Jira Sprint synchronization to enable release and timeline tracking",
+                "Unified tracking of release management activities and test timelines within a single application",
+                "Jira Sprint data is now available for reporting in the Quality Hub Dashboard",
+                "Jira Sprint synchronization is one-way only and does not support bi-directional sync"
             ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MjRmYjc5MDQyZmQ5NGYyZWJlYTE3NDc4OTkzNzMzZDc",
-            "usageGuideUrl": "https://drive.google.com/file/d/11lL9Zd7cWnziQ1FzQ8HhTen-AubRLGrb/view",
+            "usageGuideUrl": "https://provartesting.atlassian.net/wiki/external/ZWZjODYxNGNmNDUyNGZlZjgxOGVlYzIxMTc1YjU0MmQ",
             "securityReviewPassed": true,
             "dependencies": [
                 {
                     "packageName": "Provar Manager",
-                    "versionNumber": "3.26.0",
-                    "versionId": "04tP3000001lCRlIAM"
+                    "versionNumber": "3.27.0",
+                    "versionId": "04tP3000001os4fIAA"
                 }
             ]
         },
@@ -198,25 +197,36 @@
             "packageName": "Copado Plugin",
             "packageId": "0334L000000DAJaQAO",
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/copado.png",
-            "description": "Relate test cases to user stories and see their execution status per environment from within the user story itself.",
-            "status": "Beta",
-            "versionNumber": "0.3.0",
-            "versionId": "04tP3000001YDFBIA4",
+            "description": "Relate Test Cases and Test Plans to User Stories and Promotions, with real-time execution status and environment visibility directly within Copado.",
+            "status": "Released",
+            "versionNumber": "0.4.0",
+            "versionId": "04tP3000001okYXIAY",
             "category": "DevOps",
-            "releaseDate": "2025-11-12",
+            "releaseDate": "2026-03-26",
             "releaseNotes": [
-                "This release updates references to the application name from Provar Manager to Provar Quality Hub.",
-                "Include flow templates to run test cases (via Apex or Provar Grid) related to user stories or their tracked metadata, when their status changes to 'Ready for testing'."
+                "Promotion template flow to trigger test cases linked to User Stories when Promotions are marked as Promoted",
+                "Promotion template flow to trigger test plans linked to Promotion Records when Promotions are marked as Promoted",
+                "User Story template flows to trigger Provar and Apex test plans linked to User Story records",
+                "Reusable Related Test Plans component for Promotions and User Stories using junction objects",
+                "Related Test Plans component displays Test Plan details including Test Project, number of Test Suites, Smart System linking, and last triggered date",
+                "Enhanced Related Test Cases component with tracking for Test Project, Status, Test Type, and Environment run statuses",
+                "All flows now include email alerts for Test Plan schedules",
+                "Improved reliability of new and existing template flows with reduced debugging and simpler configuration"
             ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MDE1OTQzY2Q3MTc2NDlkMWE4NmRiMjJjMDI1OGFkNjQ",
             "usageGuideUrl": "https://drive.google.com/file/d/1T3ppoJbSJ4A2yUnj-A4vRxVr9OVBP1Kr/view",
-            "securityReviewPassed": false,
+            "securityReviewPassed": true,
             "dependencies": [
                 {
                     "packageName": "Copado Deployer",
                     "versionNumber": "20.0.0",
                     "versionId" : "04t5p000000Xdf2AAC"
-                }
+                },
+                {
+                    "packageName": "Provar Manager",
+                    "versionNumber": "3.27.0",
+                    "versionId": "04tP3000001os4fIAA"
+                }                
             ]
         },
         {
