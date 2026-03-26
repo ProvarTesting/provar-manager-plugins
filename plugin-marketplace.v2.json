@@ -16,7 +16,7 @@
             "Metadata Component Sync to automatically detect and track updates and deletions to imported metadata components from the connected org",
             "Jira Sprint Import and Sync for release and timeline tracking within Quality Hub",
             "Enhanced Intelligent Test Case Generation with screenshot and visual context support, multi-select capabilities, CSV export, description-based Page Object generation, and modal form locator strategies",
-            "Improved Test Artifact Validation and Reporting with hierarchy rollups, violation counts, recommendedations, and exportable reports",
+            "Improved Test Artifact Validation and Reporting with hierarchy rollups, violation counts, recommendations, and exportable reports",
             "Improved Traceability for Test Case Generation with 6 new packaged reports and 3 new report types",
             "Fixed issue where metadata auto-detection did not recognize components with namespace prefixes in scenario descriptions",
             "Fixed issue where metadata auto-detection failed for custom objects when using display labels instead of API names",
@@ -226,7 +226,7 @@
                     "packageName": "Provar Manager",
                     "versionNumber": "3.27.0",
                     "versionId": "04tP3000001os4fIAA"
-                }                
+                }
             ]
         },
         {
