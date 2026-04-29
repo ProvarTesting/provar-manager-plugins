@@ -7,10 +7,11 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "Centralized Reporting and Smart Integrations for Salesforce Quality.",
         "status": "Released",
-        "versionNumber": "3.28.0",
-        "versionId" : "04tP3000001seMUIAY",
-        "releaseDate": "2026-04-24",
+        "versionNumber": "3.29.0",
+        "versionId" : "04tP3000001tFdlIAE",
+        "releaseDate": "2026-04-29",
         "releaseNotes": [
+            "Adjusted permission sets for Limited Access users to provide full functionality to Test Case Generation (3.29.0)",
             "Google Gemini AI provider support with models gemini-2.5-pro, gemini-2.5-flash, and gemini-2.0-flash for Intelligent Test Case Generation",
             "Dynamic Provar Grid concurrency now retrieved from the Grid Admin API at runtime, replacing hardcoded values across all Grid-connected flows",
             "Related Test Case and Plan lookup enhanced with project and suite hierarchy context for improved disambiguation between records with identical names",
@@ -24,7 +25,7 @@
             "Fixed Quality Hub dashboard stalling in PROCESSING state on orgs with no test execution data",
             "Fixed Cancel button overlapping the environment dropdown on the Import Branches page"
         ],
-        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/NTdiYjJhMmU2OTZjNGRlNjlkOTJkNTRmM2ZjMzA5YTA",
+        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/ZmU0ZTQzYjk4NDAxNGQzN2I2Y2JmZWI3MDQzMTdjYjI",
         "usageGuideUrl": "https://drive.google.com/file/d/1ktXUCjJEkNF4YBNfij-82ydAtJqzeJYw/view",
         "securityReviewPassed": true
     },
