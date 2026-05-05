@@ -7,9 +7,9 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "Centralized Reporting and Smart Integrations for Salesforce Quality.",
         "status": "Released",
-        "versionNumber": "3.29.0",
-        "versionId" : "04tP3000001tFdlIAE",
-        "releaseDate": "2026-04-29",
+        "versionNumber": "3.30.0",
+        "versionId" : "04tP3000001u0mLIAQ",
+        "releaseDate": "2026-05-05",
         "releaseNotes": [
             "Adjusted permission sets for Limited Access users to provide full functionality to Test Case Generation (3.29.0)",
             "Google Gemini AI provider support with models gemini-2.5-pro, gemini-2.5-flash, and gemini-2.0-flash for Intelligent Test Case Generation",
@@ -23,7 +23,10 @@
             "Fixed Test Plan Schedule Settings displaying an invalid grayed-out Provar Automation Version on first open",
             "Fixed JAVA_VERSION and PROVAR_AUTOMATION_VERSION not being set correctly in the Get_Default_Test_Settings flow",
             "Fixed Quality Hub dashboard stalling in PROCESSING state on orgs with no test execution data",
-            "Fixed Cancel button overlapping the environment dropdown on the Import Branches page"
+            "Fixed Cancel button overlapping the environment dropdown on the Import Branches page",
+            "Permission set gap fixes for Limited Access users — Metadata Sync, Batch Validation, and AI generation settings (Default OpenAI Config, Provar API Config) are now fully accessible after partial rollout in 3.29.0",
+            "New Provar_Manager_Manage_Systems custom permission gates write access to System records, assigned to full-access Test Management permission set",
+            "Fixed Import All on the Objects tab failing with 'Unknown configKey: CustomObject' when metadata spans multiple pages"
         ],
         "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/ZmU0ZTQzYjk4NDAxNGQzN2I2Y2JmZWI3MDQzMTdjYjI",
         "usageGuideUrl": "https://drive.google.com/file/d/1ktXUCjJEkNF4YBNfij-82ydAtJqzeJYw/view",
