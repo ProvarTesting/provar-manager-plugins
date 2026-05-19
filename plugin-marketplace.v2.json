@@ -344,18 +344,20 @@
             "packageName": "ProvarDX",
             "packageId": "provardx",
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_automation.png",
-            "description": "ProvarDX provides the capability to extend your Salesforce CLI to run Provar test cases and simplifies scratch Org testing.",
+            "description": "ProvarDX provides the capability to extend your Salesforce CLI to run Provar test cases, simplifies scratch org testing, and includes Provar MCP for AI client interfacing.",
             "status": "Released",
-            "versionNumber": "1.4.7",
+            "versionNumber": "1.5.1",
             "category": "Testing",
-            "releaseDate": "2024-12-04",
+            "releaseDate": "2026-05-15",
             "releaseNotes": [
-                "Provar Quality Hub commands added to connect, display, open to Provar Quality Hub Orgs.",
-                "Provar Quality Hub commands added to retrieve, run, and report on test cases in Provar Quality Hub.",
-                "Provar Quality Hub commands added to upload code coverage and code quality reports directly to Provar Quality Hub."
+                "Provar MCP is now generally avialable for usage!",
+                "MCP handshake performance improved with compact tool schemas and selective tool-group loading for reduced token usage and faster startup.",
+                "Validation workflows enhanced with configurable response detail, run-over-run diffs, and a unified completeness signal for safer quality gating.",
+                "Test-case generation redesigned as a single-call authoring workflow with runtime safeguards to prevent invalid iterative generation loops.",
+                "Improved reliability for connection handling and environment resolution within .testproject files.",
             ],
             "releaseNotesUrl": "https://www.npmjs.com/package/@provartesting/provardx-cli",
-            "usageGuideUrl": "https://documentation.provar.com/documentation/v2/provardx/provardx-commands/"
+            "usageGuideUrl": "https://github.com/ProvarTesting/provardx-cli/blob/main/README.md"
         },
         {
             "pluginType": "External",
