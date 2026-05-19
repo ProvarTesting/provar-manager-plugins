@@ -354,7 +354,7 @@
                 "MCP handshake performance improved with compact tool schemas and selective tool-group loading for reduced token usage and faster startup.",
                 "Validation workflows enhanced with configurable response detail, run-over-run diffs, and a unified completeness signal for safer quality gating.",
                 "Test-case generation redesigned as a single-call authoring workflow with runtime safeguards to prevent invalid iterative generation loops.",
-                "Improved reliability for connection handling and environment resolution within .testproject files.",
+                "Improved reliability for connection handling and environment resolution within .testproject files."
             ],
             "releaseNotesUrl": "https://www.npmjs.com/package/@provartesting/provardx-cli",
             "usageGuideUrl": "https://github.com/ProvarTesting/provardx-cli/blob/main/README.md"
