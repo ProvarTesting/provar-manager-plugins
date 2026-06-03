@@ -7,29 +7,18 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "Centralized Reporting and Smart Integrations for Salesforce Quality.",
         "status": "Released",
-        "versionNumber": "3.30.0",
-        "versionId" : "04tP3000001u0mLIAQ",
-        "releaseDate": "2026-05-05",
+        "versionNumber": "3.31.0",
+        "versionId" : "04tP3000001xx9xIAA",
+        "releaseDate": "2026-06-03",
         "releaseNotes": [
-            "Adjusted permission sets for Limited Access users to provide full functionality to Test Case Generation (3.29.0)",
-            "Google Gemini AI provider support with models gemini-2.5-pro, gemini-2.5-flash, and gemini-2.0-flash for Intelligent Test Case Generation",
-            "Dynamic Provar Grid concurrency now retrieved from the Grid Admin API at runtime, replacing hardcoded values across all Grid-connected flows",
-            "Related Test Case and Plan lookup enhanced with project and suite hierarchy context for improved disambiguation between records with identical names",
-            "Test Plan Schedule silent failures now create a failed job record and trigger an email alert to the schedule owner",
-            "Browse Org metadata browser now supports search and sort, with a fix for case-insensitive ordering on the first page of results",
-            "Fixed inverted autoretry_timeout and autoretry_override parameters passed to Provar Grid",
-            "Permission set corrections for Limited Access users (Test Case Generation tab access) and Standard users (AI settings tab error and Systems field access)",
-            "Fixed Gemini AI error messages surfacing incorrectly on high-latency generation requests",
-            "Fixed Test Plan Schedule Settings displaying an invalid grayed-out Provar Automation Version on first open",
-            "Fixed JAVA_VERSION and PROVAR_AUTOMATION_VERSION not being set correctly in the Get_Default_Test_Settings flow",
-            "Fixed Quality Hub dashboard stalling in PROCESSING state on orgs with no test execution data",
-            "Fixed Cancel button overlapping the environment dropdown on the Import Branches page",
-            "Permission set gap fixes for Limited Access users — Metadata Sync, Batch Validation, and AI generation settings (Default OpenAI Config, Provar API Config) are now fully accessible after partial rollout in 3.29.0",
-            "New Provar_Manager_Manage_Systems custom permission gates write access to System records, assigned to full-access Test Management permission set",
-            "Fixed Import All on the Objects tab failing with 'Unknown configKey: CustomObject' when metadata spans multiple pages"
+            "Browse Org now loads gracefully on Salesforce orgs containing exceptionally large Apex classes that previously caused the metadata browser to fail",
+            "Permission set polish for Test Management Limited Access users to fully support Test Case Generation junction objects (Test Intent, Page Object, Test Case relationships)",
+            "Permission set polish for Test Operations Limited Access users to complete System record visibility and Metadata Component management started in 3.29.0",
+            "New Is_Partial_Import field on Issue records flags stub entries created during bulk import so parent issues are later upgraded to fully populated records, supporting the JIRA Plugin 0.14.0 partial import flow",
+            "Users can now select 'Mandatory fields only' on the Provar Test Case Generation and Page Object Generation tabs to send required fields to the test case & page object generators."
         ],
-        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/ZmU0ZTQzYjk4NDAxNGQzN2I2Y2JmZWI3MDQzMTdjYjI",
-        "usageGuideUrl": "https://drive.google.com/file/d/1ktXUCjJEkNF4YBNfij-82ydAtJqzeJYw/view",
+        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/NzRiNThkZTQ5NTZjNDFiZGJiYjM0YmQzYjBhMzUyZGI",
+        "usageGuideUrl": "https://documentation.provar.com/documentation/provar-quality-hub/provar-test-case-generation-setup-usage-guide/",
         "securityReviewPassed": true
     },
     "plugins": [
@@ -40,17 +29,20 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/jira.png",
             "description": "Connect to your Jira org, import projects and issues into Provar Quality Hub, relate test cases to issues, and export defects as bugs back into Jira.",
             "status": "Released",
-            "versionNumber": "0.13.0",
-            "versionId": "04tP3000001okWvIAI",
+            "versionNumber": "0.14.0",
+            "versionId": "04tP3000001xx8LIAQ",
             "category": "Release Management",
-            "releaseDate": "2026-03-26",
+            "releaseDate": "2026-06-03",
             "releaseNotes": [
-                "Improved Jira sync reliability for Issues, Projects, Releases, and Sprints",
-                "Import and sync Jira Sprints into Quality Hub",
-                "Support for Jira Sprint synchronization to enable release and timeline tracking",
-                "Unified tracking of release management activities and test timelines within a single application",
-                "Jira Sprint data is now available for reporting in the Quality Hub Dashboard",
-                "Jira Sprint synchronization is one-way only and does not support bi-directional sync"
+                "Major refactor of the JIRA Sync Service for stability and performance, including cleanly separated DML and callout operations, bulkified SOQL queries, and elimination of redundant API calls during bidirectional sync",
+                "Cross-project parent, child, subtask, and linked issues are now detected and skipped silently rather than aborting the sync with an API error",
+                "Import All on large projects (tens of thousands of issues) now correctly imports every available record without silently dropping data",
+                "Parent issues imported via subtask payloads are no longer left as incomplete stub records and are automatically upgraded to fully populated records when re-encountered",
+                "Releases linked to newly created issues now sync to JIRA correctly on the first attempt instead of silently disappearing",
+                "Apostrophes and other HTML entities in descriptions are now properly decoded before being pushed to JIRA, eliminating stray encoded values like &#39; in JIRA work items",
+                "Bidirectional sync errors during JIRA updates are now captured in the issue's Sync Information field, including HTTP 400 responses that were previously swallowed",
+                "New trigger bypass utility suppresses unnecessary trigger side effects during JIRA pull syncs for faster, cleaner bulk imports",
+                "User and priority mappings are now cached in-memory per transaction to reduce SOQL usage across sync operations"
             ],
             "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MjRmYjc5MDQyZmQ5NGYyZWJlYTE3NDc4OTkzNzMzZDc",
             "usageGuideUrl": "https://provartesting.atlassian.net/wiki/external/ZWZjODYxNGNmNDUyNGZlZjgxOGVlYzIxMTc1YjU0MmQ",
@@ -58,8 +50,8 @@
             "dependencies": [
                 {
                     "packageName": "Provar Manager",
-                    "versionNumber": "3.27.0",
-                    "versionId": "04tP3000001os4fIAA"
+                    "versionNumber": "3.31.0",
+                    "versionId": "04tP3000001xx9xIAA"
                 }
             ]
         },
