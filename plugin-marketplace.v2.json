@@ -342,15 +342,22 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_automation.png",
             "description": "ProvarDX provides the capability to extend your Salesforce CLI to run Provar test cases, simplifies scratch org testing, and includes Provar MCP for AI client interfacing.",
             "status": "Released",
-            "versionNumber": "1.5.3",
+            "versionNumber": "1.6.0",
             "category": "Testing",
-            "releaseDate": "2026-05-29",
+            "releaseDate": "2026-06-05",
             "releaseNotes": [
-                  "Added first-class support for Microsoft Dynamics 365 and Power Platform connections, bringing them to parity with Salesforce for test generation and validation.",
-                  "Salesforce UI test steps now nest correctly under their screen container during generation, and validation flags mis-nested steps so generated and validated output always agree.",
-                  "Consolidated all MCP configuration options into a single reference covering every CLI flag and environment variable, with an npx-first quick start for faster setup."
+              "The built-in validator now runs locally what previously required the Quality Hub service, so test cases are graded accurately without an API key.",
+              "Validation now returns one clear verdict: valid, needs improvement, or invalid.",
+              "Issues serious enough to stop a test loading now mark it invalid instead of passing silently, so an 'is valid' result can be trusted.",
+              "The default quality bar is raised to 90 and can be tuned per request or globally.",
+              "Salesforce UI test steps now nest correctly under their screen container, and validation flags mis-nested steps.",
+              "Two new machine-readable references give AI assistants the same test-step schema and validation rules the validator enforces.",
+              "Newly generated test cases take the next available id from the project instead of always starting at 1.",
+              "Comparison operators are validated against the set allowed for each step type.",
+              "A missing Provar Automation plugin is reported with a clear, actionable error.",
+              "Windows project paths containing spaces are now handled correctly."
             ],
-            "releaseNotesUrl": "https://www.npmjs.com/package/@provartesting/provardx-cli",
+            "releaseNotesUrl": "https://github.com/ProvarTesting/provardx-cli/releases/tag/v1.6.0",
             "usageGuideUrl": "https://github.com/ProvarTesting/provardx-cli/blob/main/README.md"
         },
         {
