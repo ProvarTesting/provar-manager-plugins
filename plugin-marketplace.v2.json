@@ -342,10 +342,12 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_automation.png",
             "description": "ProvarDX provides the capability to extend your Salesforce CLI to run Provar test cases, simplifies scratch org testing, and includes Provar MCP for AI client interfacing.",
             "status": "Released",
-            "versionNumber": "1.6.1",
+            "versionNumber": "1.6.2",
             "category": "Testing",
-            "releaseDate": "2026-06-08",
+            "releaseDate": "2026-06-09",
             "releaseNotes": [
+              "1.6.2 Notes",
+              "Fixed a bug where PROVAR_MCP_EMIT_TOKEN_META was reporting 2x the token estimation.",
               "1.6.1 Notes",
               "Verbose local test runs no longer fail with a buffer error; large test output is streamed to disk so runs complete and return their results.",
               "AI-generated try/catch/finally and list-comparison steps now use Provar's correct step types, so they load and run instead of being flagged in validation.",
@@ -361,7 +363,7 @@
               "A missing Provar Automation plugin is reported with a clear, actionable error.",
               "Windows project paths containing spaces are now handled correctly."
             ],
-            "releaseNotesUrl": "https://github.com/ProvarTesting/provardx-cli/releases/tag/v1.6.1",
+            "releaseNotesUrl": "https://github.com/ProvarTesting/provardx-cli/releases/tag/v1.6.2",
             "usageGuideUrl": "https://github.com/ProvarTesting/provardx-cli/blob/main/README.md"
         },
         {
