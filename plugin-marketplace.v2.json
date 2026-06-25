@@ -7,17 +7,17 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "Centralized Reporting and Smart Integrations for Salesforce Quality.",
         "status": "Released",
-        "versionNumber": "3.31.0",
-        "versionId" : "04tP3000001xx9xIAA",
-        "releaseDate": "2026-06-03",
+        "versionNumber": "3.32.0",
+        "versionId": "04tP30000020x5NIAQ",
+        "releaseDate": "2026-06-25",
         "releaseNotes": [
-            "Browse Org now loads gracefully on Salesforce orgs containing exceptionally large Apex classes that previously caused the metadata browser to fail",
-            "Permission set polish for Test Management Limited Access users to fully support Test Case Generation junction objects (Test Intent, Page Object, Test Case relationships)",
-            "Permission set polish for Test Operations Limited Access users to complete System record visibility and Metadata Component management started in 3.29.0",
-            "New Is_Partial_Import field on Issue records flags stub entries created during bulk import so parent issues are later upgraded to fully populated records, supporting the JIRA Plugin 0.14.0 partial import flow",
-            "Users can now select 'Mandatory fields only' on the Provar Test Case Generation and Page Object Generation tabs to send required fields to the test case & page object generators."
+            "Salesforce connection updated to meet Connected App & ECA security requirements: PKCE, Refresh Token Rotation, and a 30-day idle token lifetime",
+            "Managed Salesforce connections stay compliant and keep refreshing under Salesforce's new security enforcement",
+            "Streamlined paste-the-code sign-in, with a background keep-alive that keeps idle connections valid",
+            "Existing Salesforce connections may need a one-time re-authorization after upgrading",
+            "Intelligent Test Case Generation: select additional linked Issue fields (Priority, Components, custom fields, and more) to enrich AI scenarios"
         ],
-        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/NzRiNThkZTQ5NTZjNDFiZGJiYjM0YmQzYjBhMzUyZGI",
+        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/MzA0NGU2ZjI3NDM3NDNlNWI4M2U0YjZiN2Y2ZmEyNzQ",
         "usageGuideUrl": "https://documentation.provar.com/documentation/provar-quality-hub/provar-test-case-generation-setup-usage-guide/",
         "securityReviewPassed": true
     },
