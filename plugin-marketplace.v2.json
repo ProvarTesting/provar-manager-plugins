@@ -350,15 +350,19 @@
             "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_automation.png",
             "description": "ProvarDX provides the capability to extend your Salesforce CLI to run Provar test cases, simplifies scratch org testing, and includes Provar MCP for AI client interfacing.",
             "status": "Released",
-            "versionNumber": "1.6.3",
+            "versionNumber": "1.6.5",
             "category": "Testing",
-            "releaseDate": "2026-06-24",
+            "releaseDate": "2026-07-24",
             "releaseNotes": [
-              "provar_org_describe now reads the Salesforce object metadata Provar has already cached locally, so it returns the object's fields instead of an empty result.",
-              "Validation now flags a record verification left on the create screen after Save — at runtime Salesforce has moved to the saved record's view, so the check was looking at a page that no longer exists.",
-              "The UI screen-target format check now runs on test cases authored in Provar (previously it only saw hand-edited XML) and recognizes Visualforce and Lightning navigation parameters, so it no longer false-flags valid Salesforce CPQ and Billing screens."
+                "Improves local test-case validation accuracy and alignment with Provar runtime behavior.",
+                "Prevents valid test cases using click interactions or freshly recorded in the Provar IDE from being incorrectly marked invalid.",
+                "Validates nested steps so structural checks cover the UI actions actually written.",
+                "Makes quality scores more reliable by counting repeated issues once instead of unfairly reducing large tests to zero.",
+                "Prioritizes missing required arguments as major issues while treating IDE-generated formatting details as informational.",
+                "Recognizes project-defined connections and reduces false unknown-connection warnings.",
+                "Improves recovery guidance and ensures unmatched example lookups return no result instead of an unrelated example."             
             ],
-            "releaseNotesUrl": "https://github.com/ProvarTesting/provardx-cli/releases/tag/v1.6.3",
+            "releaseNotesUrl": "https://github.com/ProvarTesting/provardx-cli/releases/tag/v1.6.5",
             "usageGuideUrl": "https://github.com/ProvarTesting/provardx-cli/blob/main/README.md"
         },
         {
