@@ -7,15 +7,18 @@
         "packageIconUrl": "https://provar-manager.s3.eu-north-1.amazonaws.com/plugin-assets/provar_manager.png",
         "description": "Centralized Reporting and Smart Integrations for Salesforce Quality.",
         "status": "Released",
-        "versionNumber": "3.34.0",
-        "versionId": "04tP30000027HNxIAM",
-        "releaseDate": "2026-08-10",
+        "versionNumber": "3.35.0",
+        "versionId": "04tP3000002AYvJIAW",
+        "releaseDate": "2026-09-04",
         "releaseNotes": [
-            "Fixed an invalid configuration that was outside LambdaTest's supported range.",
-            "Resolved an issue where Provar Grid jobs could be rejected with SessionNotCreatedException or WebDriverException before a browser session could start.",
-            "Improved the reliability of Provar Grid test execution via PQH."
+            "Test Case Generation: specific error messages now distinguish why a download or save failed, and a warning banner surfaces on the Generation Request card when a background save fails.",
+            "Fixed backend reliability issues causing AI Test Case Generation jobs to intermittently fail with a generic \"didn't meet quality standards\" message, including undersized Lambda/SQS timeouts and a validator false positive on record-creation screens.",
+            "Added Git LFS support for repositories used in Provar Grid executions on HyperExecute (Windows, Linux, and macOS), enabled via a new Enable LFS flag on Repositories.",
+            "Fixed an INVALID_SESSION_ID error when saving Provar Quality Hub AI settings, now surfacing an actionable message to reconnect instead of a raw SOAP fault.",
+            "Test Steps grid now shows a scrollbar instead of cramping the Action, Data, and Expected Result columns at standard browser zoom.",
+            "Test Plan Schedule readiness flags now refresh immediately after selecting or changing linked tests, without requiring a page refresh."
         ],
-        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/ZjEzZWEwMDZkZTliNDBjYTllMzc5NDAyM2UwOTc2M2I",
+        "releaseNotesUrl": "https://provartesting.atlassian.net/wiki/external/OWQ2MjJjNTE5YjMzNDgxN2E5NmZlNzM0MmQ3NWVlM2M",
         "usageGuideUrl": "https://documentation.provar.com/documentation/provar-quality-hub/provar-test-case-generation-setup-usage-guide/",
         "securityReviewPassed": true
     },
